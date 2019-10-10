@@ -38,6 +38,8 @@ namespace ChicagoCrimeAlertApplication
             //Store the custom message entered by the user.
             String customMessage = customMessageTextBox.Text;
             Console.WriteLine("The user entered the following custom message: " + customMessage);
+
+            TwilioApiUtil.sendTextMessage(phoneNumber, customMessage);
         }
     }
 }

@@ -8,3 +8,13 @@ C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCri
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.csproj.CoreCompileInputs.cache
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.exe
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.pdb
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Twilio.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Twilio.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.csproj.CopyComplete
