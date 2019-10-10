@@ -39,7 +39,7 @@ namespace ChicagoCrimeAlertApplication
             var message = MessageResource.Create(
                 body: messageContent,
                 from: new Twilio.Types.PhoneNumber("+18722527725"),
-                to: new Twilio.Types.PhoneNumber("+1" + phoneNumber)
+                to: new Twilio.Types.PhoneNumber(phoneNumber)
             );
 
             Console.WriteLine("Text message has been sent!");
