@@ -1,0 +1,10 @@
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\ChicagoCrimeAlertApplication.exe.config
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\ChicagoCrimeAlertApplication.exe
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\ChicagoCrimeAlertApplication.pdb
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.csprojAssemblyReference.cache
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.mainForm.resources
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.Properties.Resources.resources
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.csproj.GenerateResource.cache
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.csproj.CoreCompileInputs.cache
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.exe
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.pdb
