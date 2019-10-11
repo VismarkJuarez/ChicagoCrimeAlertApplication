@@ -40,6 +40,7 @@ namespace ChicagoCrimeAlertApplication
             Console.WriteLine("The user entered the following custom message: " + customMessage);
 
             TwilioApiUtil.sendTextMessage(phoneNumber, customMessage);
+
         }
     }
 }
