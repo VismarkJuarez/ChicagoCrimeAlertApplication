@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MongoDB.Bson;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -40,6 +41,35 @@ namespace ChicagoCrimeAlertApplication
             Console.WriteLine("The user entered the following custom message: " + customMessage);
 
             TwilioApiUtil.sendTextMessage(phoneNumber, customMessage);
+
+        }
+
+        private void mongoButton_Click(object sender, EventArgs e)
+        {
+            var subscribersCollection = MongoUtil.retrieveCollection("smsAlerting", "subscribers");
+
+            //Store user input
+            //TODO: Implement input sanitationvalidation.
+            String firstName = firstNameTextBox.Text;
+            String lastName = lastNameTextBox.Text;
+            int wardNumber = Int32.Parse(wardNumberTextBox.Text);
+            String phoneNumber = phoneNumberTextBox.Text;
+
+            var newSubscriber = new Subscriber(firstName, lastName, wardNumber, phoneNumber);
+
+            var newSubscriberBson = new BsonDocument {
+                { "firstName", newSubscriber.firstName },
+                { "lastName", newSubscriber.lastName },
+                { "ward", newSubscriber.wardNumber },
+                { "phoneNumber", newSubscriber.phoneNumber }
+            };
+
+            subscribersCollection.InsertOneAsync(newSubscriberBson);
+            Console.WriteLine("Successfully inserted the following subscriber into the Mongo database:" + newSubscriberBson.ToJson());
+        }
+
+        private void customMessageLabel_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -5,7 +5,6 @@ C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCri
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.mainForm.resources
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.Properties.Resources.resources
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.csproj.GenerateResource.cache
-C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.csproj.CoreCompileInputs.cache
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.exe
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.pdb
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Microsoft.IdentityModel.Logging.dll
@@ -18,3 +17,18 @@ C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCri
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Twilio.xml
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.csproj.CopyComplete
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Crc32C.NET.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\DnsClient.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MongoDB.Bson.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MongoDB.Driver.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\SharpCompress.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Snappy.NET.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\System.Buffers.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Crc32C.NET.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\DnsClient.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MongoDB.Bson.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MongoDB.Driver.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Snappy.NET.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\System.Buffers.xml

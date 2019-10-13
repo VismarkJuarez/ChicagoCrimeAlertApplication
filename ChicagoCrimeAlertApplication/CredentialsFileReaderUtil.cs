@@ -45,14 +45,17 @@ namespace ChicagoCrimeAlertApplication
             //iterate through each line in the file and check to see if a key matches the specified key.
             foreach (string line in lines)
             {
-                string[] keyValuePair = line.Split(' '); //space is the delimiter
-                string key = keyValuePair[0];
-                string value = keyValuePair[1];
+                if (!line.Equals("")) { //Ignoring blank lines.
+                    string[] keyValuePair = line.Split(' '); //space is the delimiter
+                    string key = keyValuePair[0];
+                    string value = keyValuePair[1];
 
-                if (key.Equals(credentialKey)) {
-                    credential = value;
-                    break; //no need to keep checking the rest of the file, so breaking out of loop.
-                } 
+                    if (key.Equals(credentialKey))
+                    {
+                        credential = value;
+                        break; //no need to keep checking the rest of the file, so breaking out of loop.
+                    }
+                }
             }
 
             return credential;
