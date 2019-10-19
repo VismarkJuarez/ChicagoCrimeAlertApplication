@@ -1,4 +1,5 @@
 ﻿using MongoDB.Bson;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -44,28 +45,44 @@ namespace ChicagoCrimeAlertApplication
 
         }
 
-        private void mongoButton_Click(object sender, EventArgs e)
-        {
+        private void insertNewSubscriberIntoDatabase(BsonDocument subscriber) {
+            int ward = subscriber.GetValue("ward").AsInt32;
+
+            //Connecting to the database
             var subscribersCollection = MongoUtil.retrieveCollection("smsAlerting", "subscribers");
 
+            //Perform the update to the database
+            var filter = Builders<BsonDocument>.Filter.Eq("ward", ward);
+            var update = Builders<BsonDocument>.Update.Push("subscribers", subscriber);
+
+            //Execute the update
+            subscribersCollection.UpdateOne(filter, update);
+        }
+
+        private  BsonDocument convertUserInputToDocumentFormat() {
             //Store user input
-            //TODO: Implement input sanitationvalidation.
             String firstName = firstNameTextBox.Text;
             String lastName = lastNameTextBox.Text;
             int wardNumber = Int32.Parse(wardNumberTextBox.Text);
             String phoneNumber = phoneNumberTextBox.Text;
 
-            var newSubscriber = new Subscriber(firstName, lastName, wardNumber, phoneNumber);
-
-            var newSubscriberBson = new BsonDocument {
-                { "firstName", newSubscriber.firstName },
-                { "lastName", newSubscriber.lastName },
-                { "ward", newSubscriber.wardNumber },
-                { "phoneNumber", newSubscriber.phoneNumber }
+            var newSubscriber = new BsonDocument {
+                { "firstName", firstName },
+                { "lastName", lastName },
+                { "ward", wardNumber },
+                { "phoneNumber", phoneNumber }
             };
 
-            subscribersCollection.InsertOneAsync(newSubscriberBson);
-            Console.WriteLine("Successfully inserted the following subscriber into the Mongo database:" + newSubscriberBson.ToJson());
+            return newSubscriber;
+        }
+
+        private void mongoButton_Click(object sender, EventArgs e)
+        {
+            // TODO Implement sanitation and validation methods.
+            var subscribersCollection = MongoUtil.retrieveCollection("smsAlerting", "subscribers");
+            BsonDocument newSubscriber = convertUserInputToDocumentFormat();
+            insertNewSubscriberIntoDatabase(newSubscriber);
+            Console.WriteLine("Successfully inserted the following subscriber into the Mongo database:" + newSubscriber.ToJson());
         }
 
         private void customMessageLabel_Click(object sender, EventArgs e)

@@ -27,6 +27,9 @@ namespace ChicagoCrimeAlertApplication
             //Creating a new TwilioClient object -- to be used for sending Twilio sms text message.
             TwilioClient.Init(accountSid, authToken);
 
+            Console.WriteLine("accountSSID: " + accountSid);
+            Console.WriteLine("authToken: " + authToken);
+
             //Crafting the actual sms message and sending
             var message = MessageResource.Create(
                 body: messageContent,

@@ -79,7 +79,7 @@
             // 
             // sendMessageButton
             // 
-            this.sendMessageButton.Location = new System.Drawing.Point(210, 340);
+            this.sendMessageButton.Location = new System.Drawing.Point(165, 285);
             this.sendMessageButton.Name = "sendMessageButton";
             this.sendMessageButton.Size = new System.Drawing.Size(75, 23);
             this.sendMessageButton.TabIndex = 4;
@@ -89,7 +89,7 @@
             // 
             // mongoButton
             // 
-            this.mongoButton.Location = new System.Drawing.Point(210, 378);
+            this.mongoButton.Location = new System.Drawing.Point(165, 323);
             this.mongoButton.Name = "mongoButton";
             this.mongoButton.Size = new System.Drawing.Size(75, 23);
             this.mongoButton.TabIndex = 5;
