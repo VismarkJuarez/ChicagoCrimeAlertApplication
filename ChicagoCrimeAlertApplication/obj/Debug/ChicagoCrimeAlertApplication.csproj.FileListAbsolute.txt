@@ -32,3 +32,5 @@ C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCri
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MongoDB.Driver.Core.xml
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\Snappy.NET.xml
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\System.Buffers.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\System.Net.Http.Formatting.xml

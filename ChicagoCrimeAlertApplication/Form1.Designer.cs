@@ -40,6 +40,7 @@
             this.wardNumberTextBox = new System.Windows.Forms.TextBox();
             this.firstName = new System.Windows.Forms.Label();
             this.LastName = new System.Windows.Forms.Label();
+            this.callApiButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // phoneNumberLabel
@@ -145,12 +146,23 @@
             this.LastName.TabIndex = 11;
             this.LastName.Text = "Last Name:";
             // 
+            // callApiButton
+            // 
+            this.callApiButton.Location = new System.Drawing.Point(165, 364);
+            this.callApiButton.Name = "callApiButton";
+            this.callApiButton.Size = new System.Drawing.Size(75, 23);
+            this.callApiButton.TabIndex = 12;
+            this.callApiButton.Text = "Call API";
+            this.callApiButton.UseVisualStyleBackColor = true;
+            this.callApiButton.Click += new System.EventHandler(this.callApiButton_Click);
+            // 
             // mainForm
             // 
             this.AcceptButton = this.sendMessageButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.callApiButton);
             this.Controls.Add(this.LastName);
             this.Controls.Add(this.firstName);
             this.Controls.Add(this.wardNumberTextBox);
@@ -184,6 +196,7 @@
         private System.Windows.Forms.TextBox wardNumberTextBox;
         private System.Windows.Forms.Label firstName;
         private System.Windows.Forms.Label LastName;
+        private System.Windows.Forms.Button callApiButton;
     }
 }
 

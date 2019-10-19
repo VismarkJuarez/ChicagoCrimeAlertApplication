@@ -89,5 +89,13 @@ namespace ChicagoCrimeAlertApplication
         {
 
         }
+
+        private void callApiButton_Click(object sender, EventArgs e)
+        {
+            //A test button for invoking and testing the API communicaton
+            //functionality
+            ChicagoCrimeApiUtil.invokeApiAsync();
+
+        }
     }
 }
