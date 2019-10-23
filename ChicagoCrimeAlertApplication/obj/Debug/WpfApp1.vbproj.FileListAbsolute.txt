@@ -1,0 +1,17 @@
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.xml
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.vbprojAssemblyReference.cache
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.vb
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\Application.g.vb
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Resources.resources
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.vbproj.GenerateResource.cache
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.vbproj.CoreCompileInputs.cache
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.xml
+C:\Users\jack\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
