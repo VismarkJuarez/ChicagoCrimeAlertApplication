@@ -19,17 +19,26 @@
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
-            <Button x:Name="HomeBtn" Click="Home_Click" Background="Beige" Foreground="Blue" FontWeight="Bold">Button</Button>
-            <Button x:Name="StatsBtn" Click="StatsBtn_Click" Grid.Row="1" Background="Beige" Foreground="Blue" FontWeight="Bold">Button</Button>
-            <Button Grid.Row="2" Background="Beige" Foreground="Blue" FontWeight="Bold">Button</Button>
-            <Button Grid.Row="3" Background="Beige" Foreground="Blue" FontWeight="Bold">Button</Button>
-            <Button Grid.Row="4" Background="Beige" Foreground="Blue" FontWeight="Bold">Button</Button>
+            <Button x:Name="HomeBtn" Click="Home_Click" Background="Beige" Foreground="Blue" FontWeight="Bold">Home</Button>
+            <Button x:Name="StatsBtn" Click="StatsBtn_Click" Grid.Row="1" Background="Beige" Foreground="Blue" FontWeight="Bold">Stats</Button>
+            <Button x:Name="CrimeNewsbtn" Click="CrimeNewsbtn_Click" Grid.Row="2" Background="Beige" Foreground="Blue" FontWeight="Bold">CrimeNews</Button>
+            <Button x:Name="AlertBtn" Click="AlertBtn_Click" Grid.Row="3" Background="Beige" Foreground="Blue" FontWeight="Bold">Alerts</Button>
+            <Button x:Name="AboutBtn" Click="AboutBtn_Click" Grid.Row="4" Background="Beige" Foreground="Blue" FontWeight="Bold">About</Button>
         </Grid>
         <Canvas x:Name="Stats" Grid.Column="1" Visibility="Hidden">
-            <TextBlock Canvas.Left="250" Canvas.Top="40" >Window Test</TextBlock>
+            <TextBlock Canvas.Left="250" Canvas.Top="40" >Stats</TextBlock>
         </Canvas>
         <Canvas x:Name="Home" Grid.Column="1">
             <TextBlock Canvas.Left="200" Canvas.Top="40" FontSize="22" FontWeight="Bold">Chicago Crime Alert Application</TextBlock>
+        </Canvas>
+        <Canvas x:Name="Alerts" Grid.Column="1" Visibility="Hidden">
+            <TextBlock Canvas.Left="250" Canvas.Top="40" >Alerts</TextBlock>
+        </Canvas>
+        <Canvas x:Name="About" Grid.Column="1" Visibility="Hidden">
+            <TextBlock Canvas.Left="250" Canvas.Top="40" >About</TextBlock>
+        </Canvas>
+        <Canvas x:Name="News" Grid.Column="1" Visibility="Hidden">
+            <TextBlock Canvas.Left="250" Canvas.Top="40" >News</TextBlock>
         </Canvas>
     </Grid>
 </Window>
