@@ -96,6 +96,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChicagoCrimeApiUtil.cs" />
+    <Compile Include="AnnualCrimeFrequency.cs" />
+    <Compile Include="AnnualCrimeFrequencies.cs" />
     <Compile Include="Crimes.cs" />
     <Compile Include="Crime.cs" />
     <Compile Include="Subscriber.cs" />
