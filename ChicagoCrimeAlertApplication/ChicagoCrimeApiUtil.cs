@@ -29,12 +29,19 @@ namespace ChicagoCrimeAlertApplication
 
 
                 //TODO stopped here. Need to figure out how to parse this stuff.
+                JArray a = JArray.Parse(responseBody);
 
+                foreach (JObject o in a.Children<JObject>())
+                {
+                    foreach (JProperty p in o.Properties())
+                    {
+                        //TODO: Now, we can match the p.Name attribute with whatever we're looking to pull from the JSON response.
+                        string name = p.Name;
+                        string value = (string)p.Value;
+                        Console.WriteLine(name + " -- " + value);
+                    }
+                }
 
-                //List<Crime> crimes = JsonConvert.DeserializeObject<List<Crime>>(responseBody);
-                AnnualCrimeFrequencies annualCrimeFrequencies = JsonConvert.DeserializeObject<AnnualCrimeFrequencies>(responseBody);
-
-                Console.WriteLine("drum roll: " + annualCrimeFrequencies);
             }
             catch (HttpRequestException e)
             {
