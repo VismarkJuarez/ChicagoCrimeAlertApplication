@@ -70,3 +70,6 @@ C:\Users\visma\OneDrive\Documents\GitHub\ChicagoCrimeAlertApplication\ChicagoCri
 C:\Users\visma\OneDrive\Documents\GitHub\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.csproj.CopyComplete
 C:\Users\visma\OneDrive\Documents\GitHub\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.exe
 C:\Users\visma\OneDrive\Documents\GitHub\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\ChicagoCrimeAlertApplication.pdb
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MetroFramework.Design.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MetroFramework.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MetroFramework.Fonts.dll

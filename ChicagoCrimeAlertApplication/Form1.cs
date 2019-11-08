@@ -108,7 +108,20 @@ namespace ChicagoCrimeAlertApplication
             ChicagoCrimeApiUtil.invokeApiAsync();
 
         }
-        
-        
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTabPage4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
