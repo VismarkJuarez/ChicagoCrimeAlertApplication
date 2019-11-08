@@ -19,16 +19,13 @@ namespace ChicagoCrimeAlertApplication
             InitializeComponent();
         }
 
-<<<<<<< HEAD
-        private void PhoneNumberLabel_Click(object sender, EventArgs e)
-=======
+
         private void Button4_Click(object sender, EventArgs e)
->>>>>>> master
         {
 
         }
 
-<<<<<<< HEAD
+
         private void SendMessageButton_Click(object sender, EventArgs e)
         {
             /*
@@ -39,14 +36,14 @@ namespace ChicagoCrimeAlertApplication
             */
 
             //Store the phone numbere entered by the user
-            String phoneNumber = phoneNumberTextBox.Text;
-            Console.WriteLine("The user entered the phone number: " + phoneNumber);
+            //String phoneNumber = phoneNumberTextBox.Text;
+            //Console.WriteLine("The user entered the phone number: " + phoneNumber);
 
             //Store the custom message entered by the user.
-            String customMessage = customMessageTextBox.Text;
-            Console.WriteLine("The user entered the following custom message: " + customMessage);
+            //String customMessage = customMessageTextBox.Text;
+            //Console.WriteLine("The user entered the following custom message: " + customMessage);
 
-            TwilioApiUtil.sendTextMessage(phoneNumber, customMessage);
+            //TwilioApiUtil.sendTextMessage(phoneNumber, customMessage);
 
         }
 
@@ -64,8 +61,12 @@ namespace ChicagoCrimeAlertApplication
             subscribersCollection.UpdateOne(filter, update);
         }
 
+        /*
         private  BsonDocument convertUserInputToDocumentFormat() {
             //Store user input
+
+
+
             String firstName = firstNameTextBox.Text;
             String lastName = lastNameTextBox.Text;
             int wardNumber = Int32.Parse(wardNumberTextBox.Text);
@@ -80,7 +81,10 @@ namespace ChicagoCrimeAlertApplication
 
             return newSubscriber;
         }
+        */
 
+
+            /*
         private void mongoButton_Click(object sender, EventArgs e)
         {
             // TODO Implement sanitation and validation methods.
@@ -89,6 +93,8 @@ namespace ChicagoCrimeAlertApplication
             insertNewSubscriberIntoDatabase(newSubscriber);
             Console.WriteLine("Successfully inserted the following subscriber into the Mongo database:" + newSubscriber.ToJson());
         }
+
+    */
 
         private void customMessageLabel_Click(object sender, EventArgs e)
         {
@@ -100,11 +106,9 @@ namespace ChicagoCrimeAlertApplication
             //A test button for invoking and testing the API communicaton
             //functionality
             ChicagoCrimeApiUtil.invokeApiAsync();
-=======
-        private void Button5_Click(object sender, EventArgs e)
-        {
->>>>>>> master
 
         }
+        
+        
     }
 }
