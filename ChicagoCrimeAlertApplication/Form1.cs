@@ -19,11 +19,16 @@ namespace ChicagoCrimeAlertApplication
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void PhoneNumberLabel_Click(object sender, EventArgs e)
+=======
+        private void Button4_Click(object sender, EventArgs e)
+>>>>>>> master
         {
 
         }
 
+<<<<<<< HEAD
         private void SendMessageButton_Click(object sender, EventArgs e)
         {
             /*
@@ -95,6 +100,10 @@ namespace ChicagoCrimeAlertApplication
             //A test button for invoking and testing the API communicaton
             //functionality
             ChicagoCrimeApiUtil.invokeApiAsync();
+=======
+        private void Button5_Click(object sender, EventArgs e)
+        {
+>>>>>>> master
 
         }
     }
