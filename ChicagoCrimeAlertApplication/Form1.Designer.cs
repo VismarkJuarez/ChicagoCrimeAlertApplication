@@ -42,6 +42,14 @@ namespace ChicagoCrimeAlertApplication
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.firstNameTextBox = new System.Windows.Forms.TextBox();
+            this.lastNameTextBox = new System.Windows.Forms.TextBox();
+            this.wardTextBox = new System.Windows.Forms.TextBox();
+            this.phoneNumberTextBox = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.submitButton = new System.Windows.Forms.Button();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
@@ -121,6 +129,14 @@ namespace ChicagoCrimeAlertApplication
             // 
             // metroTabPage4
             // 
+            this.metroTabPage4.Controls.Add(this.submitButton);
+            this.metroTabPage4.Controls.Add(this.label8);
+            this.metroTabPage4.Controls.Add(this.label7);
+            this.metroTabPage4.Controls.Add(this.label6);
+            this.metroTabPage4.Controls.Add(this.phoneNumberTextBox);
+            this.metroTabPage4.Controls.Add(this.wardTextBox);
+            this.metroTabPage4.Controls.Add(this.lastNameTextBox);
+            this.metroTabPage4.Controls.Add(this.firstNameTextBox);
             this.metroTabPage4.Controls.Add(this.label4);
             this.metroTabPage4.HorizontalScrollbarBarColor = true;
             this.metroTabPage4.HorizontalScrollbarHighlightOnWheel = false;
@@ -190,11 +206,79 @@ namespace ChicagoCrimeAlertApplication
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(339, 210);
+            this.label4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(219, 100);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Alert System";
+            this.label4.Size = new System.Drawing.Size(63, 13);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "First Name: ";
+            // 
+            // firstNameTextBox
+            // 
+            this.firstNameTextBox.Location = new System.Drawing.Point(288, 97);
+            this.firstNameTextBox.Name = "firstNameTextBox";
+            this.firstNameTextBox.Size = new System.Drawing.Size(174, 20);
+            this.firstNameTextBox.TabIndex = 3;
+            // 
+            // lastNameTextBox
+            // 
+            this.lastNameTextBox.Location = new System.Drawing.Point(288, 137);
+            this.lastNameTextBox.Name = "lastNameTextBox";
+            this.lastNameTextBox.Size = new System.Drawing.Size(174, 20);
+            this.lastNameTextBox.TabIndex = 4;
+            // 
+            // wardTextBox
+            // 
+            this.wardTextBox.Location = new System.Drawing.Point(288, 172);
+            this.wardTextBox.Name = "wardTextBox";
+            this.wardTextBox.Size = new System.Drawing.Size(174, 20);
+            this.wardTextBox.TabIndex = 5;
+            // 
+            // phoneNumberTextBox
+            // 
+            this.phoneNumberTextBox.Location = new System.Drawing.Point(288, 203);
+            this.phoneNumberTextBox.Name = "phoneNumberTextBox";
+            this.phoneNumberTextBox.Size = new System.Drawing.Size(174, 20);
+            this.phoneNumberTextBox.TabIndex = 6;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(218, 140);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(64, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Last Name: ";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label7.Location = new System.Drawing.Point(246, 172);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(36, 13);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "ward: ";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label8.Location = new System.Drawing.Point(198, 210);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(84, 13);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "Phone Number: ";
+            // 
+            // submitButton
+            // 
+            this.submitButton.Location = new System.Drawing.Point(332, 238);
+            this.submitButton.Name = "submitButton";
+            this.submitButton.Size = new System.Drawing.Size(75, 23);
+            this.submitButton.TabIndex = 10;
+            this.submitButton.Text = "Submit";
+            this.submitButton.UseVisualStyleBackColor = true;
             // 
             // mainForm
             // 
@@ -235,6 +319,14 @@ namespace ChicagoCrimeAlertApplication
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button submitButton;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox phoneNumberTextBox;
+        private System.Windows.Forms.TextBox wardTextBox;
+        private System.Windows.Forms.TextBox lastNameTextBox;
+        private System.Windows.Forms.TextBox firstNameTextBox;
         private System.Windows.Forms.Label label4;
     }
 }
