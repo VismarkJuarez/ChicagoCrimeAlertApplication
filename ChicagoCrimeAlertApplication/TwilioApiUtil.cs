@@ -18,7 +18,7 @@ namespace ChicagoCrimeAlertApplication
              */
         }
 
-        public static void sendTextMessage(String phoneNumber, String messageContent)
+        public static void sendRegistrationSuccessfulTextMessage(String phoneNumber, string firstName, string wardNumber)
         {
             String accountSid = CredentialsFileReaderUtil.retrieveFromCredentialsFile("twilioAccountSid");
             String authToken = CredentialsFileReaderUtil.retrieveFromCredentialsFile("twilioAuthToken");
@@ -27,12 +27,15 @@ namespace ChicagoCrimeAlertApplication
             //Creating a new TwilioClient object -- to be used for sending Twilio sms text message.
             TwilioClient.Init(accountSid, authToken);
 
-            Console.WriteLine("accountSSID: " + accountSid);
-            Console.WriteLine("authToken: " + authToken);
+            string registrationSuccessfulMessage = "Hello, "
+                + firstName
+                + ".  You have been successfully registered to received notifications for ward "
+                + wardNumber
+                + ".";
 
             //Crafting the actual sms message and sending
             var message = MessageResource.Create(
-                body: messageContent,
+                body: registrationSuccessfulMessage,
                 from: new Twilio.Types.PhoneNumber(twilioPhoneNumber),
                 to: new Twilio.Types.PhoneNumber(phoneNumber)
             );

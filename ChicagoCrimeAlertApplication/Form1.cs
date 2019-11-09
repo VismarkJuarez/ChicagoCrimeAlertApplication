@@ -20,13 +20,7 @@ namespace ChicagoCrimeAlertApplication
         }
 
 
-        private void Button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void SendMessageButton_Click(object sender, EventArgs e)
+        private void recordNewUser()
         {
             /*
            TODO:
@@ -36,15 +30,18 @@ namespace ChicagoCrimeAlertApplication
             */
 
             //Store the phone numbere entered by the user
-            //String phoneNumber = phoneNumberTextBox.Text;
-            //Console.WriteLine("The user entered the phone number: " + phoneNumber);
+            String phoneNumber = phoneNumberTextBox.Text;
+            string firstName = firstNameTextBox.Text;
+            string wardNumber = wardTextBox.Text; //should verify that user entered a valid value
 
-            //Store the custom message entered by the user.
-            //String customMessage = customMessageTextBox.Text;
-            //Console.WriteLine("The user entered the following custom message: " + customMessage);
+            Console.WriteLine("The user entered the phone number: " + phoneNumber);
 
-            //TwilioApiUtil.sendTextMessage(phoneNumber, customMessage);
+            //record the new user in the Mongo Database
+            recordNewUserInMongoDB();
 
+            //Send an initial text message to the user to notify them that they have
+            //been successfully registered to receive notifications.
+            TwilioApiUtil.sendRegistrationSuccessfulTextMessage(phoneNumber, firstName, wardNumber);
         }
 
         private void insertNewSubscriberIntoDatabase(BsonDocument subscriber) {
@@ -61,15 +58,11 @@ namespace ChicagoCrimeAlertApplication
             subscribersCollection.UpdateOne(filter, update);
         }
 
-        /*
         private  BsonDocument convertUserInputToDocumentFormat() {
             //Store user input
-
-
-
             String firstName = firstNameTextBox.Text;
             String lastName = lastNameTextBox.Text;
-            int wardNumber = Int32.Parse(wardNumberTextBox.Text);
+            int wardNumber = Int32.Parse(wardTextBox.Text);
             String phoneNumber = phoneNumberTextBox.Text;
 
             var newSubscriber = new BsonDocument {
@@ -81,11 +74,10 @@ namespace ChicagoCrimeAlertApplication
 
             return newSubscriber;
         }
-        */
 
 
-            /*
-        private void mongoButton_Click(object sender, EventArgs e)
+   
+        private void recordNewUserInMongoDB()
         {
             // TODO Implement sanitation and validation methods.
             var subscribersCollection = MongoUtil.retrieveCollection("smsAlerting", "subscribers");
@@ -94,24 +86,11 @@ namespace ChicagoCrimeAlertApplication
             Console.WriteLine("Successfully inserted the following subscriber into the Mongo database:" + newSubscriber.ToJson());
         }
 
-    */
-
-        private void customMessageLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void callApiButton_Click(object sender, EventArgs e)
         {
             //A test button for invoking and testing the API communicaton
             //functionality
             ChicagoCrimeApiUtil.invokeApiAsync();
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void metroTabPage1_Click(object sender, EventArgs e)
@@ -120,6 +99,18 @@ namespace ChicagoCrimeAlertApplication
         }
 
         private void metroTabPage4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void submitButton_Click(object sender, EventArgs e)
+        {
+            //retrieve all of the user's entered data and process it
+            //(store it into Database and senduser a success message if all is processed successfully)
+            recordNewUser();
+        }
+
+        private void firstNameTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }
