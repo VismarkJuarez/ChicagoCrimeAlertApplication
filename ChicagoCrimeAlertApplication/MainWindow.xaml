@@ -8,8 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="7*" />
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="0">
             <Grid.RowDefinitions>
@@ -25,20 +25,76 @@
             <Button x:Name="AlertBtn" Click="AlertBtn_Click" Grid.Row="3" Background="Beige" Foreground="Blue" FontWeight="Bold">Alerts</Button>
             <Button x:Name="AboutBtn" Click="AboutBtn_Click" Grid.Row="4" Background="Beige" Foreground="Blue" FontWeight="Bold">About</Button>
         </Grid>
-        <Canvas x:Name="Stats" Grid.Column="1" Visibility="Hidden">
-            <TextBlock Canvas.Left="250" Canvas.Top="40" >Stats</TextBlock>
-        </Canvas>
-        <Canvas x:Name="Home" Grid.Column="1">
-            <TextBlock Canvas.Left="200" Canvas.Top="40" FontSize="22" FontWeight="Bold">Chicago Crime Alert Application</TextBlock>
-        </Canvas>
-        <Canvas x:Name="Alerts" Grid.Column="1" Visibility="Hidden">
-            <TextBlock Canvas.Left="250" Canvas.Top="40" >Alerts</TextBlock>
-        </Canvas>
-        <Canvas x:Name="About" Grid.Column="1" Visibility="Hidden">
-            <TextBlock Canvas.Left="250" Canvas.Top="40" >About</TextBlock>
-        </Canvas>
-        <Canvas x:Name="News" Grid.Column="1" Visibility="Hidden">
-            <TextBlock Canvas.Left="250" Canvas.Top="40" >News</TextBlock>
-        </Canvas>
+        <Grid x:Name="Stats" Grid.Column="1" Visibility="Hidden">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="8*" />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22" FontWeight="Bold">Stats</TextBlock>
+            <Rectangle Grid.Row="0" VerticalAlignment="Bottom" Fill="Black" Stroke="Black"/>
+        </Grid>
+        <Grid x:Name="Home" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="8*" />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22" FontWeight="Bold">Chicago Crime News</TextBlock>
+            <Rectangle Grid.Row="0" VerticalAlignment="Bottom" Fill="Black" Stroke="Black"/>
+        </Grid>
+        <Grid x:Name="Alerts" Grid.Column="1" Visibility="Hidden">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="8*" />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22" FontWeight="Bold">Get Alerts</TextBlock>
+            <Rectangle Grid.Row="0" VerticalAlignment="Bottom" Fill="Black" Stroke="Black"/>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <TextBox FontSize="16" MinWidth="200" Margin="0,0,0,13" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Center"></TextBox>
+                <TextBlock FontSize="16" Grid.Row="1" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center">Phone Number</TextBlock>
+                <TextBox FontSize="16" MinWidth="200" Margin="0,0,0,13" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Center"></TextBox>
+                <TextBlock FontSize="16" Grid.Row="2" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center">First Name</TextBlock>
+                <TextBox FontSize="16" MinWidth="200" Margin="0,0,0,13" Grid.Row="3" VerticalAlignment="Bottom" HorizontalAlignment="Center"></TextBox>
+                <TextBlock FontSize="16" Grid.Row="3" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center">Last Name</TextBlock>
+                <TextBox FontSize="16" MinWidth="200" Margin="0,0,0,13" Grid.Row="4" VerticalAlignment="Bottom" HorizontalAlignment="Center"></TextBox>
+                <TextBlock FontSize="16" Grid.Row="4" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center">Ward Number</TextBlock>
+                <Button x:Name="SubmitBtn" Width="120" Margin="0,0,9,0" Height="30" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Row="5" Background="Gray" Foreground="Blue" FontWeight="Bold">Subscribe to Alerts</Button>
+            </Grid>
+        </Grid>
+        <Grid x:Name="About" Grid.Column="1" Visibility="Hidden">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="8*" />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22" FontWeight="Bold">About Us</TextBlock>
+            <Rectangle Grid.Row="0" VerticalAlignment="Bottom" Fill="Black" Stroke="Black"/>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="2*" />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" ><Bold>Carla Robinson:</Bold> Backend/API Integration Developer</TextBlock>
+                <TextBlock Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" ><Bold>Jack Broncato:</Bold> Frontend Developer</TextBlock>
+                <TextBlock Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" ><Bold>Jaurez Vismark:</Bold> Backend/API/Frontend Integration Developer</TextBlock>
+                </Grid>
+            </Grid>
+        <Grid x:Name="News" Grid.Column="1" Visibility="Hidden">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="8*" />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22" FontWeight="Bold">News</TextBlock>
+            <Rectangle Grid.Row="0" VerticalAlignment="Bottom" Fill="Black" Stroke="Black"/>
+        </Grid>
     </Grid>
 </Window>
