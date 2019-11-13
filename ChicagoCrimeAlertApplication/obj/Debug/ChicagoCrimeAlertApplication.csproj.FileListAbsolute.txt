@@ -73,3 +73,12 @@ C:\Users\visma\OneDrive\Documents\GitHub\ChicagoCrimeAlertApplication\ChicagoCri
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MetroFramework.Design.dll
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MetroFramework.dll
 C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.pdb
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Vismark Juarez\Documents\github\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.Wpf.xml
