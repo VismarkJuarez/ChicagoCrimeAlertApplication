@@ -22,9 +22,9 @@ namespace ChicagoCrimeAlertApplication
 
 
         //TODO heavy refactoring/modularization required
-        public static List<CrimeFrequencyDataPoint> performGetRequest(List<String> selectedCrimes) {
+        public static List<CrimeFrequencyDataPoint> performGetRequest(List<String> selectedCrimes, String selectedYear) {
             string responseBody = string.Empty;
-            string url = @"https://data.cityofchicago.org/resource/6zsd-86xi.json?$select=primary_type,COUNT(primary_type)&$group=primary_type&year=2019";
+            string url = @"https://data.cityofchicago.org/resource/6zsd-86xi.json?$select=primary_type,COUNT(primary_type)&$group=primary_type&year=" + selectedYear;
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.AutomaticDecompression = DecompressionMethods.GZip;

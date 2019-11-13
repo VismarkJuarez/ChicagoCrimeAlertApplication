@@ -158,8 +158,10 @@ namespace ChicagoCrimeAlertApplication
                 selectedCrime10
             };
 
+            String selectedYear = this.crimeFrequencyYearComboBox.Text;
+
             //retrieve crime frequency counts for the user-indicated crimes
-            List<CrimeFrequencyDataPoint> crimeFrequencyDataPoints = ChicagoCrimeApiUtil.performGetRequest(selectedCrimes);
+            List<CrimeFrequencyDataPoint> crimeFrequencyDataPoints = ChicagoCrimeApiUtil.performGetRequest(selectedCrimes, selectedYear);
 
             for (int i = 0; i < crimeFrequencyDataPoints.Count; i++) {
                 String currentCrime = crimeFrequencyDataPoints[i].crimeName;
@@ -176,6 +178,11 @@ namespace ChicagoCrimeAlertApplication
         {
             //Will fetch data from the Chicago Crime Portal API and display it on the line chart.
             loadBarChart();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
