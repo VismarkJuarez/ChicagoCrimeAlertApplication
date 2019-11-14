@@ -32,3 +32,10 @@ C:\Users\jack\Desktop\School stuff\C#\ChicagoCrimeAlertApplication\ChicagoCrimeA
 C:\Users\jack\Desktop\School stuff\C#\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\WpfApp1.Resources.resources
 C:\Users\jack\Desktop\School stuff\C#\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\WpfApp1.vbproj.GenerateResource.cache
 C:\Users\jack\Desktop\School stuff\C#\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\WpfApp1.vbproj.CoreCompileInputs.cache
+C:\Users\jack\Desktop\School stuff\C#\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.dll
+C:\Users\jack\Desktop\School stuff\C#\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\jack\Desktop\School stuff\C#\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.pdb
+C:\Users\jack\Desktop\School stuff\C#\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.xml
+C:\Users\jack\Desktop\School stuff\C#\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\jack\Desktop\School stuff\C#\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\jack\Desktop\School stuff\C#\ChicagoCrimeAlertApplication\ChicagoCrimeAlertApplication\obj\Debug\WpfApp1.vbproj.CopyComplete
