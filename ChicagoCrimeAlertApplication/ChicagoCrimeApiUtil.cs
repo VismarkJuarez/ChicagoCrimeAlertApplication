@@ -43,6 +43,8 @@ namespace ChicagoCrimeAlertApplication
             List<String> crimes = new List<String>();
             List<int> crimeFrequencyCounts = new List<int>();
 
+            Console.WriteLine("Size of the array: " + a.Count);
+
             //Extract the JSON payload and store it into two lists: one holdig the crime name
             //and another holding the corresponding crime frequency count.
             foreach (JObject o in a.Children<JObject>())
