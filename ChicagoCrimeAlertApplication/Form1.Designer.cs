@@ -33,51 +33,38 @@ namespace ChicagoCrimeAlertApplication
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
-            this.crimeFrequencyYearComboBox = new System.Windows.Forms.ComboBox();
-            this.crimeComboBox10 = new System.Windows.Forms.ComboBox();
-            this.crimeComboBox9 = new System.Windows.Forms.ComboBox();
-            this.crimeComboBox8 = new System.Windows.Forms.ComboBox();
-            this.crimeComboBox7 = new System.Windows.Forms.ComboBox();
-            this.crimeComboBox6 = new System.Windows.Forms.ComboBox();
-            this.crimeComboBox5 = new System.Windows.Forms.ComboBox();
-            this.crimeComboBox4 = new System.Windows.Forms.ComboBox();
-            this.crimeComboBox3 = new System.Windows.Forms.ComboBox();
-            this.crimeComboBox2 = new System.Windows.Forms.ComboBox();
-            this.crimeComboBox1 = new System.Windows.Forms.ComboBox();
-            this.crimeFrequencyByYearChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.executeQueryButton = new System.Windows.Forms.Button();
-            this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
-            this.submitButton = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.phoneNumberTextBox = new System.Windows.Forms.TextBox();
-            this.wardTextBox = new System.Windows.Forms.TextBox();
-            this.lastNameTextBox = new System.Windows.Forms.TextBox();
-            this.firstNameTextBox = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.metroTabPage5 = new MetroFramework.Controls.MetroTabPage();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.crimeFrequencyYearComboBox = new System.Windows.Forms.ComboBox();
+            this.crimeComboBox1 = new System.Windows.Forms.ComboBox();
+            this.crimeComboBox2 = new System.Windows.Forms.ComboBox();
+            this.crimeComboBox3 = new System.Windows.Forms.ComboBox();
+            this.crimeComboBox4 = new System.Windows.Forms.ComboBox();
+            this.crimeComboBox5 = new System.Windows.Forms.ComboBox();
+            this.crimeComboBox6 = new System.Windows.Forms.ComboBox();
+            this.crimeComboBox7 = new System.Windows.Forms.ComboBox();
+            this.crimeComboBox8 = new System.Windows.Forms.ComboBox();
+            this.crimeComboBox9 = new System.Windows.Forms.ComboBox();
+            this.crimeComboBox10 = new System.Windows.Forms.ComboBox();
+            this.executeQueryButton = new System.Windows.Forms.Button();
+            this.crimeFrequencyByYearChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
+            this.startingYearDropDown = new System.Windows.Forms.ComboBox();
+            this.stoppingYearDropDown = new System.Windows.Forms.ComboBox();
             this.wardDropdown = new System.Windows.Forms.ComboBox();
             this.lineGraphCrime1 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
@@ -91,21 +78,37 @@ namespace ChicagoCrimeAlertApplication
             this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.lineGraphButton = new System.Windows.Forms.Button();
             this.lineGraph = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.startingYearDropDown = new System.Windows.Forms.ComboBox();
-            this.stoppingYearDropDown = new System.Windows.Forms.ComboBox();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
+            this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
+            this.submitButton = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.phoneNumberTextBox = new System.Windows.Forms.TextBox();
+            this.wardTextBox = new System.Windows.Forms.TextBox();
+            this.lastNameTextBox = new System.Windows.Forms.TextBox();
+            this.firstNameTextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.metroTabPage5 = new MetroFramework.Controls.MetroTabPage();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.crimeFrequencyByYearChart)).BeginInit();
-            this.metroTabPage4.SuspendLayout();
-            this.metroTabPage5.SuspendLayout();
+            this.flowLayoutPanel4.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
-            this.flowLayoutPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.crimeFrequencyByYearChart)).BeginInit();
             this.flowLayoutPanel5.SuspendLayout();
             this.flowLayoutPanel6.SuspendLayout();
             this.flowLayoutPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lineGraph)).BeginInit();
+            this.metroTabPage4.SuspendLayout();
+            this.metroTabPage5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -126,13 +129,15 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroTabControl1.Location = new System.Drawing.Point(0, 0);
             this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 1;
+            this.metroTabControl1.SelectedIndex = 0;
             this.metroTabControl1.Size = new System.Drawing.Size(1119, 492);
             this.metroTabControl1.TabIndex = 6;
             this.metroTabControl1.UseSelectable = true;
             // 
             // metroTabPage1
             // 
+            this.metroTabPage1.Controls.Add(this.label3);
+            this.metroTabPage1.Controls.Add(this.label2);
             this.metroTabPage1.Controls.Add(this.label1);
             this.metroTabPage1.HorizontalScrollbarBarColor = true;
             this.metroTabPage1.HorizontalScrollbarHighlightOnWheel = false;
@@ -150,11 +155,15 @@ namespace ChicagoCrimeAlertApplication
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(327, 235);
+            this.label1.BackColor = System.Drawing.SystemColors.Window;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(448, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 13);
+            this.label1.Size = new System.Drawing.Size(137, 34);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Welcome Page";
+            this.label1.Text = "Welcome";
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // metroTabPage2
             // 
@@ -174,6 +183,61 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage2.VerticalScrollbarBarColor = true;
             this.metroTabPage2.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage2.VerticalScrollbarSize = 10;
+            // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.AutoScroll = true;
+            this.flowLayoutPanel4.Controls.Add(this.flowLayoutPanel1);
+            this.flowLayoutPanel4.Controls.Add(this.flowLayoutPanel2);
+            this.flowLayoutPanel4.Controls.Add(this.crimeFrequencyByYearChart);
+            this.flowLayoutPanel4.Controls.Add(this.flowLayoutPanel5);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(8, 38);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(1087, 404);
+            this.flowLayoutPanel4.TabIndex = 34;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this.textBox1);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(173, 323);
+            this.flowLayoutPanel1.TabIndex = 31;
+            // 
+            // textBox1
+            // 
+            this.textBox1.AccessibleDescription = "";
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.textBox1.Location = new System.Drawing.Point(3, 3);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(165, 237);
+            this.textBox1.TabIndex = 29;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.crimeFrequencyYearComboBox);
+            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox1);
+            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox2);
+            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox3);
+            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox4);
+            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox5);
+            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox6);
+            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox7);
+            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox8);
+            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox9);
+            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox10);
+            this.flowLayoutPanel2.Controls.Add(this.executeQueryButton);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(182, 3);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(231, 356);
+            this.flowLayoutPanel2.TabIndex = 32;
             // 
             // crimeFrequencyYearComboBox
             // 
@@ -204,367 +268,6 @@ namespace ChicagoCrimeAlertApplication
             this.crimeFrequencyYearComboBox.Size = new System.Drawing.Size(121, 21);
             this.crimeFrequencyYearComboBox.TabIndex = 16;
             this.crimeFrequencyYearComboBox.Text = "Select Year";
-            // 
-            // crimeComboBox10
-            // 
-            this.crimeComboBox10.FormattingEnabled = true;
-            this.crimeComboBox10.Items.AddRange(new object[] {
-            "DECEPTIVE PRACTICE",
-            "PROSTITUTION",
-            "OTHER OFFENSE",
-            "OBSCENITY",
-            "THEFT",
-            "LIQUOR LAW VIOLATION",
-            "BURGLARY",
-            "PUBLIC PEACE VIOLATION",
-            "HOMICIDE",
-            "BATTERY",
-            "ARSON",
-            "NARCOTICS",
-            "OFFENSE INVOLVING CHILDREN",
-            "GAMBLING",
-            "HUMAN TRAFFICKING",
-            "ASSAULT",
-            "MOTOR VEHICLE THEFT",
-            "INTIMIDATION",
-            "CONCEALED CARRY LICENSE VIOLATION",
-            "PUBLIC INDECENCY",
-            "ROBBERY",
-            "WEAPONS VIOLATION",
-            "KIDNAPPING",
-            "INTERFERENCE WITH PUBLIC OFFICER",
-            "CRIM SEXUAL ASSAULT",
-            "CRIMINAL TRESPASS",
-            "CRIMINAL DAMAGE",
-            "SEX OFFENSE",
-            "STALKING",
-            "OTHER NARCOTIC VIOLATION"});
-            this.crimeComboBox10.Location = new System.Drawing.Point(3, 273);
-            this.crimeComboBox10.Name = "crimeComboBox10";
-            this.crimeComboBox10.Size = new System.Drawing.Size(149, 21);
-            this.crimeComboBox10.TabIndex = 15;
-            this.crimeComboBox10.Text = "Crime 10";
-            // 
-            // crimeComboBox9
-            // 
-            this.crimeComboBox9.FormattingEnabled = true;
-            this.crimeComboBox9.Items.AddRange(new object[] {
-            "DECEPTIVE PRACTICE",
-            "PROSTITUTION",
-            "OTHER OFFENSE",
-            "OBSCENITY",
-            "THEFT",
-            "LIQUOR LAW VIOLATION",
-            "BURGLARY",
-            "PUBLIC PEACE VIOLATION",
-            "HOMICIDE",
-            "BATTERY",
-            "ARSON",
-            "NARCOTICS",
-            "OFFENSE INVOLVING CHILDREN",
-            "GAMBLING",
-            "HUMAN TRAFFICKING",
-            "ASSAULT",
-            "MOTOR VEHICLE THEFT",
-            "INTIMIDATION",
-            "CONCEALED CARRY LICENSE VIOLATION",
-            "PUBLIC INDECENCY",
-            "ROBBERY",
-            "WEAPONS VIOLATION",
-            "KIDNAPPING",
-            "INTERFERENCE WITH PUBLIC OFFICER",
-            "CRIM SEXUAL ASSAULT",
-            "CRIMINAL TRESPASS",
-            "CRIMINAL DAMAGE",
-            "SEX OFFENSE",
-            "STALKING",
-            "OTHER NARCOTIC VIOLATION"});
-            this.crimeComboBox9.Location = new System.Drawing.Point(3, 246);
-            this.crimeComboBox9.Name = "crimeComboBox9";
-            this.crimeComboBox9.Size = new System.Drawing.Size(149, 21);
-            this.crimeComboBox9.TabIndex = 14;
-            this.crimeComboBox9.Text = "Crime 9";
-            // 
-            // crimeComboBox8
-            // 
-            this.crimeComboBox8.FormattingEnabled = true;
-            this.crimeComboBox8.Items.AddRange(new object[] {
-            "DECEPTIVE PRACTICE",
-            "PROSTITUTION",
-            "OTHER OFFENSE",
-            "OBSCENITY",
-            "THEFT",
-            "LIQUOR LAW VIOLATION",
-            "BURGLARY",
-            "PUBLIC PEACE VIOLATION",
-            "HOMICIDE",
-            "BATTERY",
-            "ARSON",
-            "NARCOTICS",
-            "OFFENSE INVOLVING CHILDREN",
-            "GAMBLING",
-            "HUMAN TRAFFICKING",
-            "ASSAULT",
-            "MOTOR VEHICLE THEFT",
-            "INTIMIDATION",
-            "CONCEALED CARRY LICENSE VIOLATION",
-            "PUBLIC INDECENCY",
-            "ROBBERY",
-            "WEAPONS VIOLATION",
-            "KIDNAPPING",
-            "INTERFERENCE WITH PUBLIC OFFICER",
-            "CRIM SEXUAL ASSAULT",
-            "CRIMINAL TRESPASS",
-            "CRIMINAL DAMAGE",
-            "SEX OFFENSE",
-            "STALKING",
-            "OTHER NARCOTIC VIOLATION"});
-            this.crimeComboBox8.Location = new System.Drawing.Point(3, 219);
-            this.crimeComboBox8.Name = "crimeComboBox8";
-            this.crimeComboBox8.Size = new System.Drawing.Size(149, 21);
-            this.crimeComboBox8.TabIndex = 13;
-            this.crimeComboBox8.Text = "Crime 8";
-            // 
-            // crimeComboBox7
-            // 
-            this.crimeComboBox7.FormattingEnabled = true;
-            this.crimeComboBox7.Items.AddRange(new object[] {
-            "DECEPTIVE PRACTICE",
-            "PROSTITUTION",
-            "OTHER OFFENSE",
-            "OBSCENITY",
-            "THEFT",
-            "LIQUOR LAW VIOLATION",
-            "BURGLARY",
-            "PUBLIC PEACE VIOLATION",
-            "HOMICIDE",
-            "BATTERY",
-            "ARSON",
-            "NARCOTICS",
-            "OFFENSE INVOLVING CHILDREN",
-            "GAMBLING",
-            "HUMAN TRAFFICKING",
-            "ASSAULT",
-            "MOTOR VEHICLE THEFT",
-            "INTIMIDATION",
-            "CONCEALED CARRY LICENSE VIOLATION",
-            "PUBLIC INDECENCY",
-            "ROBBERY",
-            "WEAPONS VIOLATION",
-            "KIDNAPPING",
-            "INTERFERENCE WITH PUBLIC OFFICER",
-            "CRIM SEXUAL ASSAULT",
-            "CRIMINAL TRESPASS",
-            "CRIMINAL DAMAGE",
-            "SEX OFFENSE",
-            "STALKING",
-            "OTHER NARCOTIC VIOLATION"});
-            this.crimeComboBox7.Location = new System.Drawing.Point(3, 192);
-            this.crimeComboBox7.Name = "crimeComboBox7";
-            this.crimeComboBox7.Size = new System.Drawing.Size(149, 21);
-            this.crimeComboBox7.TabIndex = 12;
-            this.crimeComboBox7.Text = "Crime 7";
-            // 
-            // crimeComboBox6
-            // 
-            this.crimeComboBox6.FormattingEnabled = true;
-            this.crimeComboBox6.Items.AddRange(new object[] {
-            "DECEPTIVE PRACTICE",
-            "PROSTITUTION",
-            "OTHER OFFENSE",
-            "OBSCENITY",
-            "THEFT",
-            "LIQUOR LAW VIOLATION",
-            "BURGLARY",
-            "PUBLIC PEACE VIOLATION",
-            "HOMICIDE",
-            "BATTERY",
-            "ARSON",
-            "NARCOTICS",
-            "OFFENSE INVOLVING CHILDREN",
-            "GAMBLING",
-            "HUMAN TRAFFICKING",
-            "ASSAULT",
-            "MOTOR VEHICLE THEFT",
-            "INTIMIDATION",
-            "CONCEALED CARRY LICENSE VIOLATION",
-            "PUBLIC INDECENCY",
-            "ROBBERY",
-            "WEAPONS VIOLATION",
-            "KIDNAPPING",
-            "INTERFERENCE WITH PUBLIC OFFICER",
-            "CRIM SEXUAL ASSAULT",
-            "CRIMINAL TRESPASS",
-            "CRIMINAL DAMAGE",
-            "SEX OFFENSE",
-            "STALKING",
-            "OTHER NARCOTIC VIOLATION"});
-            this.crimeComboBox6.Location = new System.Drawing.Point(3, 165);
-            this.crimeComboBox6.Name = "crimeComboBox6";
-            this.crimeComboBox6.Size = new System.Drawing.Size(149, 21);
-            this.crimeComboBox6.TabIndex = 11;
-            this.crimeComboBox6.Text = "Crime 6";
-            // 
-            // crimeComboBox5
-            // 
-            this.crimeComboBox5.FormattingEnabled = true;
-            this.crimeComboBox5.Items.AddRange(new object[] {
-            "DECEPTIVE PRACTICE",
-            "PROSTITUTION",
-            "OTHER OFFENSE",
-            "OBSCENITY",
-            "THEFT",
-            "LIQUOR LAW VIOLATION",
-            "BURGLARY",
-            "PUBLIC PEACE VIOLATION",
-            "HOMICIDE",
-            "BATTERY",
-            "ARSON",
-            "NARCOTICS",
-            "OFFENSE INVOLVING CHILDREN",
-            "GAMBLING",
-            "HUMAN TRAFFICKING",
-            "ASSAULT",
-            "MOTOR VEHICLE THEFT",
-            "INTIMIDATION",
-            "CONCEALED CARRY LICENSE VIOLATION",
-            "PUBLIC INDECENCY",
-            "ROBBERY",
-            "WEAPONS VIOLATION",
-            "KIDNAPPING",
-            "INTERFERENCE WITH PUBLIC OFFICER",
-            "CRIM SEXUAL ASSAULT",
-            "CRIMINAL TRESPASS",
-            "CRIMINAL DAMAGE",
-            "SEX OFFENSE",
-            "STALKING",
-            "OTHER NARCOTIC VIOLATION"});
-            this.crimeComboBox5.Location = new System.Drawing.Point(3, 138);
-            this.crimeComboBox5.Name = "crimeComboBox5";
-            this.crimeComboBox5.Size = new System.Drawing.Size(149, 21);
-            this.crimeComboBox5.TabIndex = 10;
-            this.crimeComboBox5.Text = "Crime 5";
-            this.crimeComboBox5.SelectedIndexChanged += new System.EventHandler(this.crimeComboBox5_SelectedIndexChanged);
-            // 
-            // crimeComboBox4
-            // 
-            this.crimeComboBox4.FormattingEnabled = true;
-            this.crimeComboBox4.Items.AddRange(new object[] {
-            "DECEPTIVE PRACTICE",
-            "PROSTITUTION",
-            "OTHER OFFENSE",
-            "OBSCENITY",
-            "THEFT",
-            "LIQUOR LAW VIOLATION",
-            "BURGLARY",
-            "PUBLIC PEACE VIOLATION",
-            "HOMICIDE",
-            "BATTERY",
-            "ARSON",
-            "NARCOTICS",
-            "OFFENSE INVOLVING CHILDREN",
-            "GAMBLING",
-            "HUMAN TRAFFICKING",
-            "ASSAULT",
-            "MOTOR VEHICLE THEFT",
-            "INTIMIDATION",
-            "CONCEALED CARRY LICENSE VIOLATION",
-            "PUBLIC INDECENCY",
-            "ROBBERY",
-            "WEAPONS VIOLATION",
-            "KIDNAPPING",
-            "INTERFERENCE WITH PUBLIC OFFICER",
-            "CRIM SEXUAL ASSAULT",
-            "CRIMINAL TRESPASS",
-            "CRIMINAL DAMAGE",
-            "SEX OFFENSE",
-            "STALKING",
-            "OTHER NARCOTIC VIOLATION"});
-            this.crimeComboBox4.Location = new System.Drawing.Point(3, 111);
-            this.crimeComboBox4.Name = "crimeComboBox4";
-            this.crimeComboBox4.Size = new System.Drawing.Size(149, 21);
-            this.crimeComboBox4.TabIndex = 9;
-            this.crimeComboBox4.Text = "Crime 4";
-            // 
-            // crimeComboBox3
-            // 
-            this.crimeComboBox3.FormattingEnabled = true;
-            this.crimeComboBox3.Items.AddRange(new object[] {
-            "DECEPTIVE PRACTICE",
-            "PROSTITUTION",
-            "OTHER OFFENSE",
-            "OBSCENITY",
-            "THEFT",
-            "LIQUOR LAW VIOLATION",
-            "BURGLARY",
-            "PUBLIC PEACE VIOLATION",
-            "HOMICIDE",
-            "BATTERY",
-            "ARSON",
-            "NARCOTICS",
-            "OFFENSE INVOLVING CHILDREN",
-            "GAMBLING",
-            "HUMAN TRAFFICKING",
-            "ASSAULT",
-            "MOTOR VEHICLE THEFT",
-            "INTIMIDATION",
-            "CONCEALED CARRY LICENSE VIOLATION",
-            "PUBLIC INDECENCY",
-            "ROBBERY",
-            "WEAPONS VIOLATION",
-            "KIDNAPPING",
-            "INTERFERENCE WITH PUBLIC OFFICER",
-            "CRIM SEXUAL ASSAULT",
-            "CRIMINAL TRESPASS",
-            "CRIMINAL DAMAGE",
-            "SEX OFFENSE",
-            "STALKING",
-            "OTHER NARCOTIC VIOLATION"});
-            this.crimeComboBox3.Location = new System.Drawing.Point(3, 84);
-            this.crimeComboBox3.Name = "crimeComboBox3";
-            this.crimeComboBox3.Size = new System.Drawing.Size(149, 21);
-            this.crimeComboBox3.TabIndex = 8;
-            this.crimeComboBox3.Text = "Crime 3";
-            // 
-            // crimeComboBox2
-            // 
-            this.crimeComboBox2.FormattingEnabled = true;
-            this.crimeComboBox2.Items.AddRange(new object[] {
-            "DECEPTIVE PRACTICE",
-            "PROSTITUTION",
-            "OTHER OFFENSE",
-            "OBSCENITY",
-            "THEFT",
-            "LIQUOR LAW VIOLATION",
-            "BURGLARY",
-            "PUBLIC PEACE VIOLATION",
-            "HOMICIDE",
-            "BATTERY",
-            "ARSON",
-            "NARCOTICS",
-            "OFFENSE INVOLVING CHILDREN",
-            "GAMBLING",
-            "HUMAN TRAFFICKING",
-            "ASSAULT",
-            "MOTOR VEHICLE THEFT",
-            "INTIMIDATION",
-            "CONCEALED CARRY LICENSE VIOLATION",
-            "PUBLIC INDECENCY",
-            "ROBBERY",
-            "WEAPONS VIOLATION",
-            "KIDNAPPING",
-            "INTERFERENCE WITH PUBLIC OFFICER",
-            "CRIM SEXUAL ASSAULT",
-            "CRIMINAL TRESPASS",
-            "CRIMINAL DAMAGE",
-            "SEX OFFENSE",
-            "STALKING",
-            "OTHER NARCOTIC VIOLATION"});
-            this.crimeComboBox2.Location = new System.Drawing.Point(3, 57);
-            this.crimeComboBox2.Name = "crimeComboBox2";
-            this.crimeComboBox2.Size = new System.Drawing.Size(149, 21);
-            this.crimeComboBox2.TabIndex = 7;
-            this.crimeComboBox2.Text = "Crime 2";
             // 
             // crimeComboBox1
             // 
@@ -609,6 +312,377 @@ namespace ChicagoCrimeAlertApplication
             this.crimeComboBox1.Text = "Crime 1";
             this.crimeComboBox1.SelectedIndexChanged += new System.EventHandler(this.crimeComboBox1_SelectedIndexChanged);
             // 
+            // crimeComboBox2
+            // 
+            this.crimeComboBox2.FormattingEnabled = true;
+            this.crimeComboBox2.Items.AddRange(new object[] {
+            "DECEPTIVE PRACTICE",
+            "PROSTITUTION",
+            "OTHER OFFENSE",
+            "OBSCENITY",
+            "THEFT",
+            "LIQUOR LAW VIOLATION",
+            "BURGLARY",
+            "PUBLIC PEACE VIOLATION",
+            "HOMICIDE",
+            "BATTERY",
+            "ARSON",
+            "NARCOTICS",
+            "OFFENSE INVOLVING CHILDREN",
+            "GAMBLING",
+            "HUMAN TRAFFICKING",
+            "ASSAULT",
+            "MOTOR VEHICLE THEFT",
+            "INTIMIDATION",
+            "CONCEALED CARRY LICENSE VIOLATION",
+            "PUBLIC INDECENCY",
+            "ROBBERY",
+            "WEAPONS VIOLATION",
+            "KIDNAPPING",
+            "INTERFERENCE WITH PUBLIC OFFICER",
+            "CRIM SEXUAL ASSAULT",
+            "CRIMINAL TRESPASS",
+            "CRIMINAL DAMAGE",
+            "SEX OFFENSE",
+            "STALKING",
+            "OTHER NARCOTIC VIOLATION"});
+            this.crimeComboBox2.Location = new System.Drawing.Point(3, 57);
+            this.crimeComboBox2.Name = "crimeComboBox2";
+            this.crimeComboBox2.Size = new System.Drawing.Size(149, 21);
+            this.crimeComboBox2.TabIndex = 7;
+            this.crimeComboBox2.Text = "Crime 2";
+            // 
+            // crimeComboBox3
+            // 
+            this.crimeComboBox3.FormattingEnabled = true;
+            this.crimeComboBox3.Items.AddRange(new object[] {
+            "DECEPTIVE PRACTICE",
+            "PROSTITUTION",
+            "OTHER OFFENSE",
+            "OBSCENITY",
+            "THEFT",
+            "LIQUOR LAW VIOLATION",
+            "BURGLARY",
+            "PUBLIC PEACE VIOLATION",
+            "HOMICIDE",
+            "BATTERY",
+            "ARSON",
+            "NARCOTICS",
+            "OFFENSE INVOLVING CHILDREN",
+            "GAMBLING",
+            "HUMAN TRAFFICKING",
+            "ASSAULT",
+            "MOTOR VEHICLE THEFT",
+            "INTIMIDATION",
+            "CONCEALED CARRY LICENSE VIOLATION",
+            "PUBLIC INDECENCY",
+            "ROBBERY",
+            "WEAPONS VIOLATION",
+            "KIDNAPPING",
+            "INTERFERENCE WITH PUBLIC OFFICER",
+            "CRIM SEXUAL ASSAULT",
+            "CRIMINAL TRESPASS",
+            "CRIMINAL DAMAGE",
+            "SEX OFFENSE",
+            "STALKING",
+            "OTHER NARCOTIC VIOLATION"});
+            this.crimeComboBox3.Location = new System.Drawing.Point(3, 84);
+            this.crimeComboBox3.Name = "crimeComboBox3";
+            this.crimeComboBox3.Size = new System.Drawing.Size(149, 21);
+            this.crimeComboBox3.TabIndex = 8;
+            this.crimeComboBox3.Text = "Crime 3";
+            // 
+            // crimeComboBox4
+            // 
+            this.crimeComboBox4.FormattingEnabled = true;
+            this.crimeComboBox4.Items.AddRange(new object[] {
+            "DECEPTIVE PRACTICE",
+            "PROSTITUTION",
+            "OTHER OFFENSE",
+            "OBSCENITY",
+            "THEFT",
+            "LIQUOR LAW VIOLATION",
+            "BURGLARY",
+            "PUBLIC PEACE VIOLATION",
+            "HOMICIDE",
+            "BATTERY",
+            "ARSON",
+            "NARCOTICS",
+            "OFFENSE INVOLVING CHILDREN",
+            "GAMBLING",
+            "HUMAN TRAFFICKING",
+            "ASSAULT",
+            "MOTOR VEHICLE THEFT",
+            "INTIMIDATION",
+            "CONCEALED CARRY LICENSE VIOLATION",
+            "PUBLIC INDECENCY",
+            "ROBBERY",
+            "WEAPONS VIOLATION",
+            "KIDNAPPING",
+            "INTERFERENCE WITH PUBLIC OFFICER",
+            "CRIM SEXUAL ASSAULT",
+            "CRIMINAL TRESPASS",
+            "CRIMINAL DAMAGE",
+            "SEX OFFENSE",
+            "STALKING",
+            "OTHER NARCOTIC VIOLATION"});
+            this.crimeComboBox4.Location = new System.Drawing.Point(3, 111);
+            this.crimeComboBox4.Name = "crimeComboBox4";
+            this.crimeComboBox4.Size = new System.Drawing.Size(149, 21);
+            this.crimeComboBox4.TabIndex = 9;
+            this.crimeComboBox4.Text = "Crime 4";
+            // 
+            // crimeComboBox5
+            // 
+            this.crimeComboBox5.FormattingEnabled = true;
+            this.crimeComboBox5.Items.AddRange(new object[] {
+            "DECEPTIVE PRACTICE",
+            "PROSTITUTION",
+            "OTHER OFFENSE",
+            "OBSCENITY",
+            "THEFT",
+            "LIQUOR LAW VIOLATION",
+            "BURGLARY",
+            "PUBLIC PEACE VIOLATION",
+            "HOMICIDE",
+            "BATTERY",
+            "ARSON",
+            "NARCOTICS",
+            "OFFENSE INVOLVING CHILDREN",
+            "GAMBLING",
+            "HUMAN TRAFFICKING",
+            "ASSAULT",
+            "MOTOR VEHICLE THEFT",
+            "INTIMIDATION",
+            "CONCEALED CARRY LICENSE VIOLATION",
+            "PUBLIC INDECENCY",
+            "ROBBERY",
+            "WEAPONS VIOLATION",
+            "KIDNAPPING",
+            "INTERFERENCE WITH PUBLIC OFFICER",
+            "CRIM SEXUAL ASSAULT",
+            "CRIMINAL TRESPASS",
+            "CRIMINAL DAMAGE",
+            "SEX OFFENSE",
+            "STALKING",
+            "OTHER NARCOTIC VIOLATION"});
+            this.crimeComboBox5.Location = new System.Drawing.Point(3, 138);
+            this.crimeComboBox5.Name = "crimeComboBox5";
+            this.crimeComboBox5.Size = new System.Drawing.Size(149, 21);
+            this.crimeComboBox5.TabIndex = 10;
+            this.crimeComboBox5.Text = "Crime 5";
+            this.crimeComboBox5.SelectedIndexChanged += new System.EventHandler(this.crimeComboBox5_SelectedIndexChanged);
+            // 
+            // crimeComboBox6
+            // 
+            this.crimeComboBox6.FormattingEnabled = true;
+            this.crimeComboBox6.Items.AddRange(new object[] {
+            "DECEPTIVE PRACTICE",
+            "PROSTITUTION",
+            "OTHER OFFENSE",
+            "OBSCENITY",
+            "THEFT",
+            "LIQUOR LAW VIOLATION",
+            "BURGLARY",
+            "PUBLIC PEACE VIOLATION",
+            "HOMICIDE",
+            "BATTERY",
+            "ARSON",
+            "NARCOTICS",
+            "OFFENSE INVOLVING CHILDREN",
+            "GAMBLING",
+            "HUMAN TRAFFICKING",
+            "ASSAULT",
+            "MOTOR VEHICLE THEFT",
+            "INTIMIDATION",
+            "CONCEALED CARRY LICENSE VIOLATION",
+            "PUBLIC INDECENCY",
+            "ROBBERY",
+            "WEAPONS VIOLATION",
+            "KIDNAPPING",
+            "INTERFERENCE WITH PUBLIC OFFICER",
+            "CRIM SEXUAL ASSAULT",
+            "CRIMINAL TRESPASS",
+            "CRIMINAL DAMAGE",
+            "SEX OFFENSE",
+            "STALKING",
+            "OTHER NARCOTIC VIOLATION"});
+            this.crimeComboBox6.Location = new System.Drawing.Point(3, 165);
+            this.crimeComboBox6.Name = "crimeComboBox6";
+            this.crimeComboBox6.Size = new System.Drawing.Size(149, 21);
+            this.crimeComboBox6.TabIndex = 11;
+            this.crimeComboBox6.Text = "Crime 6";
+            // 
+            // crimeComboBox7
+            // 
+            this.crimeComboBox7.FormattingEnabled = true;
+            this.crimeComboBox7.Items.AddRange(new object[] {
+            "DECEPTIVE PRACTICE",
+            "PROSTITUTION",
+            "OTHER OFFENSE",
+            "OBSCENITY",
+            "THEFT",
+            "LIQUOR LAW VIOLATION",
+            "BURGLARY",
+            "PUBLIC PEACE VIOLATION",
+            "HOMICIDE",
+            "BATTERY",
+            "ARSON",
+            "NARCOTICS",
+            "OFFENSE INVOLVING CHILDREN",
+            "GAMBLING",
+            "HUMAN TRAFFICKING",
+            "ASSAULT",
+            "MOTOR VEHICLE THEFT",
+            "INTIMIDATION",
+            "CONCEALED CARRY LICENSE VIOLATION",
+            "PUBLIC INDECENCY",
+            "ROBBERY",
+            "WEAPONS VIOLATION",
+            "KIDNAPPING",
+            "INTERFERENCE WITH PUBLIC OFFICER",
+            "CRIM SEXUAL ASSAULT",
+            "CRIMINAL TRESPASS",
+            "CRIMINAL DAMAGE",
+            "SEX OFFENSE",
+            "STALKING",
+            "OTHER NARCOTIC VIOLATION"});
+            this.crimeComboBox7.Location = new System.Drawing.Point(3, 192);
+            this.crimeComboBox7.Name = "crimeComboBox7";
+            this.crimeComboBox7.Size = new System.Drawing.Size(149, 21);
+            this.crimeComboBox7.TabIndex = 12;
+            this.crimeComboBox7.Text = "Crime 7";
+            // 
+            // crimeComboBox8
+            // 
+            this.crimeComboBox8.FormattingEnabled = true;
+            this.crimeComboBox8.Items.AddRange(new object[] {
+            "DECEPTIVE PRACTICE",
+            "PROSTITUTION",
+            "OTHER OFFENSE",
+            "OBSCENITY",
+            "THEFT",
+            "LIQUOR LAW VIOLATION",
+            "BURGLARY",
+            "PUBLIC PEACE VIOLATION",
+            "HOMICIDE",
+            "BATTERY",
+            "ARSON",
+            "NARCOTICS",
+            "OFFENSE INVOLVING CHILDREN",
+            "GAMBLING",
+            "HUMAN TRAFFICKING",
+            "ASSAULT",
+            "MOTOR VEHICLE THEFT",
+            "INTIMIDATION",
+            "CONCEALED CARRY LICENSE VIOLATION",
+            "PUBLIC INDECENCY",
+            "ROBBERY",
+            "WEAPONS VIOLATION",
+            "KIDNAPPING",
+            "INTERFERENCE WITH PUBLIC OFFICER",
+            "CRIM SEXUAL ASSAULT",
+            "CRIMINAL TRESPASS",
+            "CRIMINAL DAMAGE",
+            "SEX OFFENSE",
+            "STALKING",
+            "OTHER NARCOTIC VIOLATION"});
+            this.crimeComboBox8.Location = new System.Drawing.Point(3, 219);
+            this.crimeComboBox8.Name = "crimeComboBox8";
+            this.crimeComboBox8.Size = new System.Drawing.Size(149, 21);
+            this.crimeComboBox8.TabIndex = 13;
+            this.crimeComboBox8.Text = "Crime 8";
+            // 
+            // crimeComboBox9
+            // 
+            this.crimeComboBox9.FormattingEnabled = true;
+            this.crimeComboBox9.Items.AddRange(new object[] {
+            "DECEPTIVE PRACTICE",
+            "PROSTITUTION",
+            "OTHER OFFENSE",
+            "OBSCENITY",
+            "THEFT",
+            "LIQUOR LAW VIOLATION",
+            "BURGLARY",
+            "PUBLIC PEACE VIOLATION",
+            "HOMICIDE",
+            "BATTERY",
+            "ARSON",
+            "NARCOTICS",
+            "OFFENSE INVOLVING CHILDREN",
+            "GAMBLING",
+            "HUMAN TRAFFICKING",
+            "ASSAULT",
+            "MOTOR VEHICLE THEFT",
+            "INTIMIDATION",
+            "CONCEALED CARRY LICENSE VIOLATION",
+            "PUBLIC INDECENCY",
+            "ROBBERY",
+            "WEAPONS VIOLATION",
+            "KIDNAPPING",
+            "INTERFERENCE WITH PUBLIC OFFICER",
+            "CRIM SEXUAL ASSAULT",
+            "CRIMINAL TRESPASS",
+            "CRIMINAL DAMAGE",
+            "SEX OFFENSE",
+            "STALKING",
+            "OTHER NARCOTIC VIOLATION"});
+            this.crimeComboBox9.Location = new System.Drawing.Point(3, 246);
+            this.crimeComboBox9.Name = "crimeComboBox9";
+            this.crimeComboBox9.Size = new System.Drawing.Size(149, 21);
+            this.crimeComboBox9.TabIndex = 14;
+            this.crimeComboBox9.Text = "Crime 9";
+            // 
+            // crimeComboBox10
+            // 
+            this.crimeComboBox10.FormattingEnabled = true;
+            this.crimeComboBox10.Items.AddRange(new object[] {
+            "DECEPTIVE PRACTICE",
+            "PROSTITUTION",
+            "OTHER OFFENSE",
+            "OBSCENITY",
+            "THEFT",
+            "LIQUOR LAW VIOLATION",
+            "BURGLARY",
+            "PUBLIC PEACE VIOLATION",
+            "HOMICIDE",
+            "BATTERY",
+            "ARSON",
+            "NARCOTICS",
+            "OFFENSE INVOLVING CHILDREN",
+            "GAMBLING",
+            "HUMAN TRAFFICKING",
+            "ASSAULT",
+            "MOTOR VEHICLE THEFT",
+            "INTIMIDATION",
+            "CONCEALED CARRY LICENSE VIOLATION",
+            "PUBLIC INDECENCY",
+            "ROBBERY",
+            "WEAPONS VIOLATION",
+            "KIDNAPPING",
+            "INTERFERENCE WITH PUBLIC OFFICER",
+            "CRIM SEXUAL ASSAULT",
+            "CRIMINAL TRESPASS",
+            "CRIMINAL DAMAGE",
+            "SEX OFFENSE",
+            "STALKING",
+            "OTHER NARCOTIC VIOLATION"});
+            this.crimeComboBox10.Location = new System.Drawing.Point(3, 273);
+            this.crimeComboBox10.Name = "crimeComboBox10";
+            this.crimeComboBox10.Size = new System.Drawing.Size(149, 21);
+            this.crimeComboBox10.TabIndex = 15;
+            this.crimeComboBox10.Text = "Crime 10";
+            // 
+            // executeQueryButton
+            // 
+            this.executeQueryButton.Location = new System.Drawing.Point(3, 300);
+            this.executeQueryButton.Name = "executeQueryButton";
+            this.executeQueryButton.Size = new System.Drawing.Size(100, 23);
+            this.executeQueryButton.TabIndex = 4;
+            this.executeQueryButton.Text = "Execute Query";
+            this.executeQueryButton.UseVisualStyleBackColor = true;
+            this.executeQueryButton.Click += new System.EventHandler(this.executeQueryButton_Click);
+            // 
             // crimeFrequencyByYearChart
             // 
             chartArea1.Name = "ChartArea1";
@@ -629,228 +703,6 @@ namespace ChicagoCrimeAlertApplication
             this.crimeFrequencyByYearChart.Size = new System.Drawing.Size(645, 353);
             this.crimeFrequencyByYearChart.TabIndex = 5;
             this.crimeFrequencyByYearChart.Text = "chart1";
-            // 
-            // executeQueryButton
-            // 
-            this.executeQueryButton.Location = new System.Drawing.Point(3, 300);
-            this.executeQueryButton.Name = "executeQueryButton";
-            this.executeQueryButton.Size = new System.Drawing.Size(100, 23);
-            this.executeQueryButton.TabIndex = 4;
-            this.executeQueryButton.Text = "Execute Query";
-            this.executeQueryButton.UseVisualStyleBackColor = true;
-            this.executeQueryButton.Click += new System.EventHandler(this.executeQueryButton_Click);
-            // 
-            // metroTabPage3
-            // 
-            this.metroTabPage3.HorizontalScrollbarBarColor = true;
-            this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage3.HorizontalScrollbarSize = 10;
-            this.metroTabPage3.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage3.Name = "metroTabPage3";
-            this.metroTabPage3.Size = new System.Drawing.Size(1111, 450);
-            this.metroTabPage3.TabIndex = 2;
-            this.metroTabPage3.Text = "Crime Related News";
-            this.metroTabPage3.VerticalScrollbarBarColor = true;
-            this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage3.VerticalScrollbarSize = 10;
-            // 
-            // metroTabPage4
-            // 
-            this.metroTabPage4.Controls.Add(this.submitButton);
-            this.metroTabPage4.Controls.Add(this.label8);
-            this.metroTabPage4.Controls.Add(this.label7);
-            this.metroTabPage4.Controls.Add(this.label6);
-            this.metroTabPage4.Controls.Add(this.phoneNumberTextBox);
-            this.metroTabPage4.Controls.Add(this.wardTextBox);
-            this.metroTabPage4.Controls.Add(this.lastNameTextBox);
-            this.metroTabPage4.Controls.Add(this.firstNameTextBox);
-            this.metroTabPage4.Controls.Add(this.label4);
-            this.metroTabPage4.HorizontalScrollbarBarColor = true;
-            this.metroTabPage4.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage4.HorizontalScrollbarSize = 10;
-            this.metroTabPage4.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage4.Name = "metroTabPage4";
-            this.metroTabPage4.Size = new System.Drawing.Size(1111, 450);
-            this.metroTabPage4.TabIndex = 3;
-            this.metroTabPage4.Text = "Alert System";
-            this.metroTabPage4.VerticalScrollbarBarColor = true;
-            this.metroTabPage4.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage4.VerticalScrollbarSize = 10;
-            this.metroTabPage4.Click += new System.EventHandler(this.metroTabPage4_Click);
-            // 
-            // submitButton
-            // 
-            this.submitButton.Location = new System.Drawing.Point(332, 238);
-            this.submitButton.Name = "submitButton";
-            this.submitButton.Size = new System.Drawing.Size(75, 23);
-            this.submitButton.TabIndex = 10;
-            this.submitButton.Text = "Submit";
-            this.submitButton.UseVisualStyleBackColor = true;
-            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(198, 210);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(84, 13);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "Phone Number: ";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(246, 172);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 13);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "ward: ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(218, 140);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 13);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Last Name: ";
-            // 
-            // phoneNumberTextBox
-            // 
-            this.phoneNumberTextBox.Location = new System.Drawing.Point(288, 203);
-            this.phoneNumberTextBox.Name = "phoneNumberTextBox";
-            this.phoneNumberTextBox.Size = new System.Drawing.Size(174, 20);
-            this.phoneNumberTextBox.TabIndex = 6;
-            // 
-            // wardTextBox
-            // 
-            this.wardTextBox.Location = new System.Drawing.Point(288, 172);
-            this.wardTextBox.Name = "wardTextBox";
-            this.wardTextBox.Size = new System.Drawing.Size(174, 20);
-            this.wardTextBox.TabIndex = 5;
-            // 
-            // lastNameTextBox
-            // 
-            this.lastNameTextBox.Location = new System.Drawing.Point(288, 137);
-            this.lastNameTextBox.Name = "lastNameTextBox";
-            this.lastNameTextBox.Size = new System.Drawing.Size(174, 20);
-            this.lastNameTextBox.TabIndex = 4;
-            // 
-            // firstNameTextBox
-            // 
-            this.firstNameTextBox.Location = new System.Drawing.Point(288, 97);
-            this.firstNameTextBox.Name = "firstNameTextBox";
-            this.firstNameTextBox.Size = new System.Drawing.Size(174, 20);
-            this.firstNameTextBox.TabIndex = 3;
-            this.firstNameTextBox.TextChanged += new System.EventHandler(this.firstNameTextBox_TextChanged);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(219, 100);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "First Name: ";
-            // 
-            // metroTabPage5
-            // 
-            this.metroTabPage5.Controls.Add(this.label5);
-            this.metroTabPage5.HorizontalScrollbarBarColor = true;
-            this.metroTabPage5.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage5.HorizontalScrollbarSize = 10;
-            this.metroTabPage5.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage5.Name = "metroTabPage5";
-            this.metroTabPage5.Size = new System.Drawing.Size(1111, 450);
-            this.metroTabPage5.TabIndex = 4;
-            this.metroTabPage5.Text = "About Us";
-            this.metroTabPage5.VerticalScrollbarBarColor = true;
-            this.metroTabPage5.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage5.VerticalScrollbarSize = 10;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(339, 210);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 13);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "About Us";
-            // 
-            // textBox1
-            // 
-            this.textBox1.AccessibleDescription = "";
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox1.Location = new System.Drawing.Point(3, 3);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(165, 237);
-            this.textBox1.TabIndex = 29;
-            this.textBox1.Text = resources.GetString("textBox1.Text");
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(487, 6);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(243, 26);
-            this.textBox2.TabIndex = 30;
-            this.textBox2.Text = "Annual Chicago Crime Statistics";
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.textBox1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(173, 323);
-            this.flowLayoutPanel1.TabIndex = 31;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Controls.Add(this.crimeFrequencyYearComboBox);
-            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox1);
-            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox2);
-            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox3);
-            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox4);
-            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox5);
-            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox6);
-            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox7);
-            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox8);
-            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox9);
-            this.flowLayoutPanel2.Controls.Add(this.crimeComboBox10);
-            this.flowLayoutPanel2.Controls.Add(this.executeQueryButton);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(182, 3);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(231, 356);
-            this.flowLayoutPanel2.TabIndex = 32;
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(498, 43);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(592, 356);
-            this.flowLayoutPanel3.TabIndex = 33;
-            // 
-            // flowLayoutPanel4
-            // 
-            this.flowLayoutPanel4.AutoScroll = true;
-            this.flowLayoutPanel4.Controls.Add(this.flowLayoutPanel1);
-            this.flowLayoutPanel4.Controls.Add(this.flowLayoutPanel2);
-            this.flowLayoutPanel4.Controls.Add(this.crimeFrequencyByYearChart);
-            this.flowLayoutPanel4.Controls.Add(this.flowLayoutPanel5);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(8, 38);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(1087, 404);
-            this.flowLayoutPanel4.TabIndex = 34;
             // 
             // flowLayoutPanel5
             // 
@@ -907,6 +759,66 @@ namespace ChicagoCrimeAlertApplication
             this.flowLayoutPanel7.Name = "flowLayoutPanel7";
             this.flowLayoutPanel7.Size = new System.Drawing.Size(231, 387);
             this.flowLayoutPanel7.TabIndex = 32;
+            // 
+            // startingYearDropDown
+            // 
+            this.startingYearDropDown.FormattingEnabled = true;
+            this.startingYearDropDown.Items.AddRange(new object[] {
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019"});
+            this.startingYearDropDown.Location = new System.Drawing.Point(3, 3);
+            this.startingYearDropDown.Name = "startingYearDropDown";
+            this.startingYearDropDown.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.startingYearDropDown.Size = new System.Drawing.Size(133, 21);
+            this.startingYearDropDown.TabIndex = 17;
+            this.startingYearDropDown.Text = "Select Starting Year";
+            // 
+            // stoppingYearDropDown
+            // 
+            this.stoppingYearDropDown.FormattingEnabled = true;
+            this.stoppingYearDropDown.Items.AddRange(new object[] {
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019"});
+            this.stoppingYearDropDown.Location = new System.Drawing.Point(3, 30);
+            this.stoppingYearDropDown.Name = "stoppingYearDropDown";
+            this.stoppingYearDropDown.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.stoppingYearDropDown.Size = new System.Drawing.Size(133, 21);
+            this.stoppingYearDropDown.TabIndex = 18;
+            this.stoppingYearDropDown.Text = "Select Stopping Year";
             // 
             // wardDropdown
             // 
@@ -1402,65 +1314,200 @@ namespace ChicagoCrimeAlertApplication
             this.lineGraph.TabIndex = 5;
             this.lineGraph.Text = "chart1";
             // 
-            // startingYearDropDown
+            // flowLayoutPanel3
             // 
-            this.startingYearDropDown.FormattingEnabled = true;
-            this.startingYearDropDown.Items.AddRange(new object[] {
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019"});
-            this.startingYearDropDown.Location = new System.Drawing.Point(3, 3);
-            this.startingYearDropDown.Name = "startingYearDropDown";
-            this.startingYearDropDown.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.startingYearDropDown.Size = new System.Drawing.Size(133, 21);
-            this.startingYearDropDown.TabIndex = 17;
-            this.startingYearDropDown.Text = "Select Starting Year";
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(498, 43);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(592, 356);
+            this.flowLayoutPanel3.TabIndex = 33;
             // 
-            // stoppingYearDropDown
+            // textBox2
             // 
-            this.stoppingYearDropDown.FormattingEnabled = true;
-            this.stoppingYearDropDown.Items.AddRange(new object[] {
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019"});
-            this.stoppingYearDropDown.Location = new System.Drawing.Point(3, 30);
-            this.stoppingYearDropDown.Name = "stoppingYearDropDown";
-            this.stoppingYearDropDown.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.stoppingYearDropDown.Size = new System.Drawing.Size(133, 21);
-            this.stoppingYearDropDown.TabIndex = 18;
-            this.stoppingYearDropDown.Text = "Select Stopping Year";
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(487, 6);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(243, 26);
+            this.textBox2.TabIndex = 30;
+            this.textBox2.Text = "Annual Chicago Crime Statistics";
+            // 
+            // metroTabPage3
+            // 
+            this.metroTabPage3.HorizontalScrollbarBarColor = true;
+            this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage3.HorizontalScrollbarSize = 10;
+            this.metroTabPage3.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage3.Name = "metroTabPage3";
+            this.metroTabPage3.Size = new System.Drawing.Size(1111, 450);
+            this.metroTabPage3.TabIndex = 2;
+            this.metroTabPage3.Text = "Crime Related News";
+            this.metroTabPage3.VerticalScrollbarBarColor = true;
+            this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage3.VerticalScrollbarSize = 10;
+            // 
+            // metroTabPage4
+            // 
+            this.metroTabPage4.Controls.Add(this.submitButton);
+            this.metroTabPage4.Controls.Add(this.label8);
+            this.metroTabPage4.Controls.Add(this.label7);
+            this.metroTabPage4.Controls.Add(this.label6);
+            this.metroTabPage4.Controls.Add(this.phoneNumberTextBox);
+            this.metroTabPage4.Controls.Add(this.wardTextBox);
+            this.metroTabPage4.Controls.Add(this.lastNameTextBox);
+            this.metroTabPage4.Controls.Add(this.firstNameTextBox);
+            this.metroTabPage4.Controls.Add(this.label4);
+            this.metroTabPage4.HorizontalScrollbarBarColor = true;
+            this.metroTabPage4.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage4.HorizontalScrollbarSize = 10;
+            this.metroTabPage4.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage4.Name = "metroTabPage4";
+            this.metroTabPage4.Size = new System.Drawing.Size(1111, 450);
+            this.metroTabPage4.TabIndex = 3;
+            this.metroTabPage4.Text = "Alert System";
+            this.metroTabPage4.VerticalScrollbarBarColor = true;
+            this.metroTabPage4.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage4.VerticalScrollbarSize = 10;
+            this.metroTabPage4.Click += new System.EventHandler(this.metroTabPage4_Click);
+            // 
+            // submitButton
+            // 
+            this.submitButton.Location = new System.Drawing.Point(332, 238);
+            this.submitButton.Name = "submitButton";
+            this.submitButton.Size = new System.Drawing.Size(75, 23);
+            this.submitButton.TabIndex = 10;
+            this.submitButton.Text = "Submit";
+            this.submitButton.UseVisualStyleBackColor = true;
+            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label8.Location = new System.Drawing.Point(198, 210);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(84, 13);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "Phone Number: ";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label7.Location = new System.Drawing.Point(246, 172);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(36, 13);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "ward: ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(218, 140);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(64, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Last Name: ";
+            // 
+            // phoneNumberTextBox
+            // 
+            this.phoneNumberTextBox.Location = new System.Drawing.Point(288, 203);
+            this.phoneNumberTextBox.Name = "phoneNumberTextBox";
+            this.phoneNumberTextBox.Size = new System.Drawing.Size(174, 20);
+            this.phoneNumberTextBox.TabIndex = 6;
+            // 
+            // wardTextBox
+            // 
+            this.wardTextBox.Location = new System.Drawing.Point(288, 172);
+            this.wardTextBox.Name = "wardTextBox";
+            this.wardTextBox.Size = new System.Drawing.Size(174, 20);
+            this.wardTextBox.TabIndex = 5;
+            // 
+            // lastNameTextBox
+            // 
+            this.lastNameTextBox.Location = new System.Drawing.Point(288, 137);
+            this.lastNameTextBox.Name = "lastNameTextBox";
+            this.lastNameTextBox.Size = new System.Drawing.Size(174, 20);
+            this.lastNameTextBox.TabIndex = 4;
+            // 
+            // firstNameTextBox
+            // 
+            this.firstNameTextBox.Location = new System.Drawing.Point(288, 97);
+            this.firstNameTextBox.Name = "firstNameTextBox";
+            this.firstNameTextBox.Size = new System.Drawing.Size(174, 20);
+            this.firstNameTextBox.TabIndex = 3;
+            this.firstNameTextBox.TextChanged += new System.EventHandler(this.firstNameTextBox_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(219, 100);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(63, 13);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "First Name: ";
+            // 
+            // metroTabPage5
+            // 
+            this.metroTabPage5.Controls.Add(this.label9);
+            this.metroTabPage5.Controls.Add(this.label5);
+            this.metroTabPage5.HorizontalScrollbarBarColor = true;
+            this.metroTabPage5.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage5.HorizontalScrollbarSize = 10;
+            this.metroTabPage5.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage5.Name = "metroTabPage5";
+            this.metroTabPage5.Size = new System.Drawing.Size(1111, 450);
+            this.metroTabPage5.TabIndex = 4;
+            this.metroTabPage5.Text = "About Us";
+            this.metroTabPage5.VerticalScrollbarBarColor = true;
+            this.metroTabPage5.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage5.VerticalScrollbarSize = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.Window;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label5.Location = new System.Drawing.Point(366, 127);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(314, 24);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Jack Broncato: Front End Developer";
+            this.label5.Click += new System.EventHandler(this.Label5_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.Window;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label2.Location = new System.Drawing.Point(67, 158);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(978, 177);
+            this.label2.TabIndex = 3;
+            this.label2.Text = resources.GetString("label2.Text");
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.Window;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(62, 115);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(110, 29);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Explore:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.SystemColors.Window;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label9.Location = new System.Drawing.Point(319, 243);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(418, 24);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "Vismark Juarez: Back End Developer, Integration";
             // 
             // mainForm
             // 
@@ -1475,20 +1522,20 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage1.PerformLayout();
             this.metroTabPage2.ResumeLayout(false);
             this.metroTabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.crimeFrequencyByYearChart)).EndInit();
-            this.metroTabPage4.ResumeLayout(false);
-            this.metroTabPage4.PerformLayout();
-            this.metroTabPage5.ResumeLayout(false);
-            this.metroTabPage5.PerformLayout();
+            this.flowLayoutPanel4.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
-            this.flowLayoutPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.crimeFrequencyByYearChart)).EndInit();
             this.flowLayoutPanel5.ResumeLayout(false);
             this.flowLayoutPanel6.ResumeLayout(false);
             this.flowLayoutPanel6.PerformLayout();
             this.flowLayoutPanel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.lineGraph)).EndInit();
+            this.metroTabPage4.ResumeLayout(false);
+            this.metroTabPage4.PerformLayout();
+            this.metroTabPage5.ResumeLayout(false);
+            this.metroTabPage5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1555,6 +1602,9 @@ namespace ChicagoCrimeAlertApplication
         public System.Windows.Forms.DataVisualization.Charting.Chart lineGraph;
         private System.Windows.Forms.ComboBox startingYearDropDown;
         private System.Windows.Forms.ComboBox stoppingYearDropDown;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label9;
     }
 }
 
