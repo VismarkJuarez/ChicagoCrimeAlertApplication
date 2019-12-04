@@ -2,7 +2,9 @@
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace ChicagoCrimeAlertApplication
 {
@@ -162,26 +164,96 @@ namespace ChicagoCrimeAlertApplication
             }
         }
 
+        private void plotCrimeFrequencyCountForYear(String crimeName, int year, int crimeFrequencyCount) {
+            this.lineGraph.Series[crimeName].Points.AddXY(year, crimeFrequencyCount);
+            Console.WriteLine("Plotting (" + year + ", " + crimeFrequencyCount + ")");
+        }
+
+
+
+        private void loadLineChart() {
+            //Setting up stylistic configurations for the chart
+            this.lineGraph.ChartAreas[0].AxisX.LabelStyle.Angle = -90;
+            this.lineGraph.ChartAreas[0].AxisX.Interval = 1;
+
+            //retrieve user-selected combobox values:
+            String selectedCrime1 = this.lineGraphCrime1.SelectedItem != null ? this.lineGraphCrime1.SelectedItem.ToString() : null;
+            String selectedCrime2 = this.lineGraphCrime2.SelectedItem != null ? this.lineGraphCrime2.SelectedItem.ToString() : null;
+            String selectedCrime3 = this.lineGraphCrime3.SelectedItem != null ? this.lineGraphCrime3.SelectedItem.ToString() : null;
+            String selectedCrime4 = this.lineGraphCrime4.SelectedItem != null ? this.lineGraphCrime4.SelectedItem.ToString() : null;
+            String selectedCrime5 = this.lineGraphCrime5.SelectedItem != null ? this.lineGraphCrime5.SelectedItem.ToString() : null;
+            String selectedCrime6 = this.lineGraphCrime6.SelectedItem != null ? this.lineGraphCrime6.SelectedItem.ToString() : null;
+            String selectedCrime7 = this.lineGraphCrime7.SelectedItem != null ? this.lineGraphCrime7.SelectedItem.ToString() : null;
+            String selectedCrime8 = this.lineGraphCrime8.SelectedItem != null ? this.lineGraphCrime8.SelectedItem.ToString() : null;
+            String selectedCrime9 = this.lineGraphCrime9.SelectedItem != null ? this.lineGraphCrime9.SelectedItem.ToString() : null;
+            String selectedCrime10 = this.lineGraphCrime10.SelectedItem != null ? this.lineGraphCrime10.SelectedItem.ToString() : null;
+
+            //Store user input into a list
+            List<String> selectedCrimes = new List<String>() {
+                selectedCrime1,
+                selectedCrime2,
+                selectedCrime3,
+                selectedCrime4,
+                selectedCrime5,
+                selectedCrime6,
+                selectedCrime7,
+                selectedCrime8,
+                selectedCrime9,
+                selectedCrime10
+            };
+
+            //Extract user-selected starting and ending year: TODO startingYear should not be < endingYear
+            int startingYear = Int32.Parse(this.startingYearDropDown.Text);
+            int endingYear = Int32.Parse(this.endingYearDropDown.Text);
+
+
+            //Extract selected ward:
+            String ward = this.wardDropdown.Text;
+            int numberOfCrimes = selectedCrimes.Count;
+
+            //Create a new Series (line) for each user-selected crime:
+            for (int c = 0; c < numberOfCrimes; c++) {
+                String currentCrime = selectedCrimes[c];
+                if (currentCrime != "" && currentCrime != null) { //create a new Series (line) for the crime, so long as it exists (is not empty)
+                    addNewSeriesToLineChart(currentCrime);
+                }
+            }
+
+            //for each year, retrieve a count of how many instances of each crime occured in the given ward for the specific year
+            for (int currentYear = startingYear; currentYear <= endingYear; currentYear++) {
+                for (int i = 0; i < numberOfCrimes; i++) {
+                    String currentCrime = selectedCrimes[i];
+                    if (currentCrime != null && currentCrime != "") {
+                        int annualCrimeFrequencyCount = ChicagoCrimeApiUtil.findAnnualCrimeFrequencyCount(currentCrime, currentYear, ward);
+                        plotCrimeFrequencyCountForYear(currentCrime, currentYear, annualCrimeFrequencyCount);
+                    }
+                }
+            }
+        }
+
+        private void addNewSeriesToLineChart(String nameOfNewSeries) {
+            Console.WriteLine("Adding new Series to line chart: " + nameOfNewSeries);
+            this.lineGraph.Series.Add(nameOfNewSeries);
+            this.lineGraph.Series[nameOfNewSeries].Color = generateRandomColor();
+            this.lineGraph.Series[nameOfNewSeries].IsVisibleInLegend = true;
+            this.lineGraph.Series[nameOfNewSeries].ChartType = SeriesChartType.Spline;
+            this.lineGraph.Series[nameOfNewSeries].IsValueShownAsLabel = true;
+            this.lineGraph.Series[nameOfNewSeries].Font = new System.Drawing.Font("Arial", 9);
+        }
+
+        //TODO ranom color generator does not actually work.  Need to create our own random color-generator.
+        private Color generateRandomColor() {
+            Random rnd = null;
+            rnd = new Random();
+            return Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+        }
+
         private void executeQueryButton_Click(object sender, EventArgs e)
         {
-            //Will fetch data from the Chicago Crime Portal API and display it on the line chart.
+            //Will fetch data from the Chicago Crime Portal API and display it on the bar chart.
             loadBarChart();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label17_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label18_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -193,29 +265,19 @@ namespace ChicagoCrimeAlertApplication
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void crimeComboBox5_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void mainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lineGraphButton_Click(object sender, EventArgs e)
+        {
+            loadLineChart();
         }
     }
 }
