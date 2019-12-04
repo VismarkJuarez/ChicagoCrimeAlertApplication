@@ -117,4 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Crime Statistics: Crime related statistics, allowing you to search and compare different types of crime in Chicago.
+
+Crime Related News: News and Articles related to current trends or significant crime.
+
+Alert system: Sign up for alerts keeping you aware of important or local unlawful behaviour.
+
+About Us: A small section describing the team behind this application and their roles in development.</value>
+  </data>
+  <metadata name="metroTabPage2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Use the 'Select Year' drop-down to specify a year to retrieve data for.  Then, you may select up to 10 crimes.  The graph will then display the number of times each of the selected crimes were reported in the City of Chicago on the specified year.
+
+</value>
+  </data>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>Use the 'Select Starting Year' drop-down to specify the year to begin retrieving crime counts for.  Then, use the 'Select Stopping Year' to specify the year to stop retrieing data for. Afterwards,specify the ward you'd like to see data for.  Lasty, specify up to 10 crimes to retrieve crime counts on the ward for.  The graph will then display the number of times each of the selected crimes were reported in the specified ward and in the specified year.
+
+</value>
+  </data>
 </root>

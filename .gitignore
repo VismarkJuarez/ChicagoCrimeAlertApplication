@@ -1,1 +1,5 @@
 .vs
+*.pdb
+*.exe
+*.cache
+ChicagoCrimeAlertApplication/credentialsFile.txt
