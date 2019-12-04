@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Crime Statistics: Crime related statistics, allowing you to search and compare different types of crime in Chicago.
+
+Crime Related News: News and Articles related to current trends or significant crime.
+
+Alert system: Sign up for alerts keeping you aware of important or local unlawful behaviour.
+
+About Us: A small section describing the team behind this application and their roles in development.</value>
+  </data>
   <metadata name="metroTabPage2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
