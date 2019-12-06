@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="metroTabPage2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label2.Text" xml:space="preserve">
     <value>Crime Statistics: Crime related statistics, allowing you to search and compare different types of crime in Chicago.
 
@@ -129,6 +126,9 @@ Alert system: Sign up for alerts keeping you aware of important or local unlawfu
 
 About Us: A small section describing the team behind this application and their roles in development.</value>
   </data>
+  <metadata name="metroTabPage2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="textBox1.Text" xml:space="preserve">
     <value>Use the 'Select Year' drop-down to specify a year to retrieve data for.  Then, you may select up to 10 crimes.  The graph will then display the number of times each of the selected crimes were reported in the City of Chicago on the specified year.
 
@@ -139,7 +139,20 @@ About Us: A small section describing the team behind this application and their 
 
 </value>
   </data>
+  <data name="textBox9.Text" xml:space="preserve">
+    <value>Joycelyn Savage denies creating Patreon account exposing R. Kelly
+
+https://www.chicagotribune.com/entertainment/music/ct-ent-r-kelly-joycelyn-savage-20191206-ie5bvs2pwbavngzpcbrhrp6c7i-story.html
+
+</value>
+  </data>
+  <data name="textBox11.Text" xml:space="preserve">
+    <value>Charges have been filed against a man who was shot in the leg by Chicago police after he allegedly pulled a gun during a chase on the West Side.
+
+https://www.chicagotribune.com/news/breaking/ct-charges-east-garfield-park-shooting-20191206-6dpds2uaebelhoxmo4vqkfdi4e-story.html
+</value>
+  </data>
   <data name="textBox5.Text" xml:space="preserve">
-    <value>This page allows you to input your contact information to receive daily updates on crime activity in a specific ward.  You may enter the ward number for which you would like to receive SMS text alerts rom in the form.</value>
+    <value>This page allows you to input your contact information to receive daily updates on crime activity in a specific ward.  You may enter the ward number for which you would like to receive SMS text alerts from in the form.</value>
   </data>
 </root>

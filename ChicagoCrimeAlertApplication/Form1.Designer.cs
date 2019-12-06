@@ -31,12 +31,12 @@ namespace ChicagoCrimeAlertApplication
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
@@ -83,7 +83,20 @@ namespace ChicagoCrimeAlertApplication
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
+            this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.submitButton = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -94,13 +107,20 @@ namespace ChicagoCrimeAlertApplication
             this.firstNameTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.metroTabPage5 = new MetroFramework.Controls.MetroTabPage();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.stoppingYearDropDown = new System.Windows.Forms.ComboBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
@@ -113,8 +133,21 @@ namespace ChicagoCrimeAlertApplication
             this.flowLayoutPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lineGraph)).BeginInit();
             this.metroTabPage3.SuspendLayout();
+            this.flowLayoutPanel8.SuspendLayout();
+            this.flowLayoutPanel13.SuspendLayout();
+            this.flowLayoutPanel9.SuspendLayout();
+            this.flowLayoutPanel10.SuspendLayout();
+            this.flowLayoutPanel11.SuspendLayout();
             this.metroTabPage4.SuspendLayout();
             this.metroTabPage5.SuspendLayout();
+            this.flowLayoutPanel12.SuspendLayout();
+            this.flowLayoutPanel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -136,7 +169,7 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabControl1.Location = new System.Drawing.Point(0, 0);
             this.metroTabControl1.Name = "metroTabControl1";
             this.metroTabControl1.SelectedIndex = 2;
-            this.metroTabControl1.Size = new System.Drawing.Size(1119, 492);
+            this.metroTabControl1.Size = new System.Drawing.Size(1119, 530);
             this.metroTabControl1.TabIndex = 6;
             this.metroTabControl1.UseSelectable = true;
             // 
@@ -714,21 +747,21 @@ namespace ChicagoCrimeAlertApplication
             // 
             // crimeFrequencyByYearChart
             // 
-            chartArea9.Name = "ChartArea1";
-            this.crimeFrequencyByYearChart.ChartAreas.Add(chartArea9);
+            chartArea1.Name = "ChartArea1";
+            this.crimeFrequencyByYearChart.ChartAreas.Add(chartArea1);
             this.crimeFrequencyByYearChart.ImeMode = System.Windows.Forms.ImeMode.On;
-            legend9.Name = "Legend1";
-            this.crimeFrequencyByYearChart.Legends.Add(legend9);
+            legend1.Name = "Legend1";
+            this.crimeFrequencyByYearChart.Legends.Add(legend1);
             this.crimeFrequencyByYearChart.Location = new System.Drawing.Point(419, 3);
             this.crimeFrequencyByYearChart.Name = "crimeFrequencyByYearChart";
-            series9.ChartArea = "ChartArea1";
-            series9.Font = new System.Drawing.Font("Microsoft Uighur", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series9.LabelAngle = 60;
-            series9.Legend = "Legend1";
-            series9.Name = "Crime Frequency";
-            series9.XValueMember = "Crime";
-            series9.YValueMembers = "Crime Frequency";
-            this.crimeFrequencyByYearChart.Series.Add(series9);
+            series1.ChartArea = "ChartArea1";
+            series1.Font = new System.Drawing.Font("Microsoft Uighur", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series1.LabelAngle = 60;
+            series1.Legend = "Legend1";
+            series1.Name = "Crime Frequency";
+            series1.XValueMember = "Crime";
+            series1.YValueMembers = "Crime Frequency";
+            this.crimeFrequencyByYearChart.Series.Add(series1);
             this.crimeFrequencyByYearChart.Size = new System.Drawing.Size(645, 353);
             this.crimeFrequencyByYearChart.TabIndex = 5;
             this.crimeFrequencyByYearChart.Text = "chart1";
@@ -1343,22 +1376,22 @@ namespace ChicagoCrimeAlertApplication
             // 
             // lineGraph
             // 
-            chartArea10.Name = "ChartArea1";
-            this.lineGraph.ChartAreas.Add(chartArea10);
+            chartArea2.Name = "ChartArea1";
+            this.lineGraph.ChartAreas.Add(chartArea2);
             this.lineGraph.ImeMode = System.Windows.Forms.ImeMode.On;
-            legend10.Name = "Legend1";
-            this.lineGraph.Legends.Add(legend10);
+            legend2.Name = "Legend1";
+            this.lineGraph.Legends.Add(legend2);
             this.lineGraph.Location = new System.Drawing.Point(419, 3);
             this.lineGraph.Name = "lineGraph";
-            series10.ChartArea = "ChartArea1";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series10.Font = new System.Drawing.Font("Microsoft Uighur", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series10.LabelAngle = 60;
-            series10.Legend = "Legend1";
-            series10.Name = "Series1";
-            series10.XValueMember = "Crime";
-            series10.YValueMembers = "Crime Frequency";
-            this.lineGraph.Series.Add(series10);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Font = new System.Drawing.Font("Microsoft Uighur", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series2.LabelAngle = 60;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            series2.XValueMember = "Crime";
+            series2.YValueMembers = "Crime Frequency";
+            this.lineGraph.Series.Add(series2);
             this.lineGraph.Size = new System.Drawing.Size(645, 353);
             this.lineGraph.TabIndex = 5;
             this.lineGraph.Text = "chart1";
@@ -1381,18 +1414,131 @@ namespace ChicagoCrimeAlertApplication
             // 
             // metroTabPage3
             // 
+            this.metroTabPage3.Controls.Add(this.flowLayoutPanel8);
+            this.metroTabPage3.Controls.Add(this.textBox8);
             this.metroTabPage3.Controls.Add(this.textBox7);
             this.metroTabPage3.HorizontalScrollbarBarColor = true;
             this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage3.HorizontalScrollbarSize = 10;
             this.metroTabPage3.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage3.Name = "metroTabPage3";
-            this.metroTabPage3.Size = new System.Drawing.Size(1111, 450);
+            this.metroTabPage3.Size = new System.Drawing.Size(1111, 488);
             this.metroTabPage3.TabIndex = 2;
             this.metroTabPage3.Text = "Crime Related News";
             this.metroTabPage3.VerticalScrollbarBarColor = true;
             this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage3.VerticalScrollbarSize = 10;
+            // 
+            // flowLayoutPanel8
+            // 
+            this.flowLayoutPanel8.AutoScroll = true;
+            this.flowLayoutPanel8.Controls.Add(this.flowLayoutPanel13);
+            this.flowLayoutPanel8.Controls.Add(this.flowLayoutPanel9);
+            this.flowLayoutPanel8.Controls.Add(this.flowLayoutPanel10);
+            this.flowLayoutPanel8.Controls.Add(this.flowLayoutPanel11);
+            this.flowLayoutPanel8.Controls.Add(this.flowLayoutPanel12);
+            this.flowLayoutPanel8.Location = new System.Drawing.Point(262, 105);
+            this.flowLayoutPanel8.Name = "flowLayoutPanel8";
+            this.flowLayoutPanel8.Size = new System.Drawing.Size(596, 342);
+            this.flowLayoutPanel8.TabIndex = 35;
+            // 
+            // flowLayoutPanel13
+            // 
+            this.flowLayoutPanel13.Controls.Add(this.pictureBox1);
+            this.flowLayoutPanel13.Controls.Add(this.textBox9);
+            this.flowLayoutPanel13.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel13.Name = "flowLayoutPanel13";
+            this.flowLayoutPanel13.Size = new System.Drawing.Size(575, 100);
+            this.flowLayoutPanel13.TabIndex = 1;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(144, 3);
+            this.textBox9.Multiline = true;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(420, 85);
+            this.textBox9.TabIndex = 1;
+            this.textBox9.Text = resources.GetString("textBox9.Text");
+            // 
+            // flowLayoutPanel9
+            // 
+            this.flowLayoutPanel9.Controls.Add(this.pictureBox2);
+            this.flowLayoutPanel9.Controls.Add(this.textBox10);
+            this.flowLayoutPanel9.Location = new System.Drawing.Point(3, 109);
+            this.flowLayoutPanel9.Name = "flowLayoutPanel9";
+            this.flowLayoutPanel9.Size = new System.Drawing.Size(575, 100);
+            this.flowLayoutPanel9.TabIndex = 0;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(144, 3);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(420, 86);
+            this.textBox10.TabIndex = 2;
+            this.textBox10.Text = "Police: Teen’s Report of Kidnapping, Sexual Abuse in Wicker Park ‘Unfounded’\r\n\r\nh" +
+    "ttps://news.wttw.com/2019/09/26/police-teens-report-kidnapping-sexual-abuse-wick" +
+    "er-park-unfounded";
+            // 
+            // flowLayoutPanel10
+            // 
+            this.flowLayoutPanel10.AutoSize = true;
+            this.flowLayoutPanel10.Controls.Add(this.pictureBox3);
+            this.flowLayoutPanel10.Controls.Add(this.textBox11);
+            this.flowLayoutPanel10.Location = new System.Drawing.Point(3, 215);
+            this.flowLayoutPanel10.Name = "flowLayoutPanel10";
+            this.flowLayoutPanel10.Size = new System.Drawing.Size(567, 103);
+            this.flowLayoutPanel10.TabIndex = 1;
+            this.flowLayoutPanel10.WrapContents = false;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(144, 3);
+            this.textBox11.Multiline = true;
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(420, 88);
+            this.textBox11.TabIndex = 2;
+            this.textBox11.Text = resources.GetString("textBox11.Text");
+            // 
+            // flowLayoutPanel11
+            // 
+            this.flowLayoutPanel11.Controls.Add(this.pictureBox4);
+            this.flowLayoutPanel11.Controls.Add(this.textBox12);
+            this.flowLayoutPanel11.Location = new System.Drawing.Point(3, 324);
+            this.flowLayoutPanel11.Name = "flowLayoutPanel11";
+            this.flowLayoutPanel11.Size = new System.Drawing.Size(575, 100);
+            this.flowLayoutPanel11.TabIndex = 2;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(144, 3);
+            this.textBox12.Multiline = true;
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(420, 86);
+            this.textBox12.TabIndex = 2;
+            this.textBox12.Text = "5 Chicago Teens Charged with Murder Under Controversial Illinois Law\r\n\r\nhttps://n" +
+    "ews.wttw.com/2019/08/29/5-chicago-teens-charged-murder-under-controversial-illin" +
+    "ois-law";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(324, 35);
+            this.textBox8.Multiline = true;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(480, 59);
+            this.textBox8.TabIndex = 33;
+            this.textBox8.Text = "This page showcases a few major news articles pertaining to Chicago-area crime in" +
+    " the year 2019.";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(467, 3);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(161, 26);
+            this.textBox7.TabIndex = 32;
+            this.textBox7.Text = "Chicago Crime News";
             // 
             // metroTabPage4
             // 
@@ -1419,6 +1565,27 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage4.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage4.VerticalScrollbarSize = 10;
             this.metroTabPage4.Click += new System.EventHandler(this.metroTabPage4_Click);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(518, 92);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(283, 156);
+            this.textBox5.TabIndex = 32;
+            this.textBox5.Text = resources.GetString("textBox5.Text");
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(403, 16);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(210, 26);
+            this.textBox4.TabIndex = 31;
+            this.textBox4.Text = "Chicago Crime Alert Sign Up";
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // submitButton
             // 
@@ -1516,6 +1683,15 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage5.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage5.VerticalScrollbarSize = 10;
             // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(485, 16);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(80, 26);
+            this.textBox6.TabIndex = 32;
+            this.textBox6.Text = "About Us";
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -1569,48 +1745,104 @@ namespace ChicagoCrimeAlertApplication
             this.stoppingYearDropDown.TabIndex = 18;
             this.stoppingYearDropDown.Text = "Select Stopping Year";
             // 
-            // textBox4
+            // textBox13
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(403, 16);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(210, 26);
-            this.textBox4.TabIndex = 31;
-            this.textBox4.Text = "Chicago Crime Alert Sign Up";
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.textBox13.Location = new System.Drawing.Point(144, 3);
+            this.textBox13.Multiline = true;
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(420, 88);
+            this.textBox13.TabIndex = 2;
+            this.textBox13.Text = "Confused by Jussie Smollett Case? Here’s What You Need to Know.\r\n\r\nhttps://news.w" +
+    "ttw.com/2019/03/29/jussie-smollett-charges-dropped-case-questions\r\n";
             // 
-            // textBox5
+            // flowLayoutPanel12
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(518, 92);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(283, 156);
-            this.textBox5.TabIndex = 32;
-            this.textBox5.Text = resources.GetString("textBox5.Text");
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.flowLayoutPanel12.Controls.Add(this.pictureBox5);
+            this.flowLayoutPanel12.Controls.Add(this.textBox13);
+            this.flowLayoutPanel12.Controls.Add(this.flowLayoutPanel14);
+            this.flowLayoutPanel12.Location = new System.Drawing.Point(3, 430);
+            this.flowLayoutPanel12.Name = "flowLayoutPanel12";
+            this.flowLayoutPanel12.Size = new System.Drawing.Size(575, 100);
+            this.flowLayoutPanel12.TabIndex = 1;
             // 
-            // textBox6
+            // flowLayoutPanel14
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(485, 16);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(80, 26);
-            this.textBox6.TabIndex = 32;
-            this.textBox6.Text = "About Us";
+            this.flowLayoutPanel14.Controls.Add(this.pictureBox6);
+            this.flowLayoutPanel14.Controls.Add(this.textBox14);
+            this.flowLayoutPanel14.Location = new System.Drawing.Point(3, 106);
+            this.flowLayoutPanel14.Name = "flowLayoutPanel14";
+            this.flowLayoutPanel14.Size = new System.Drawing.Size(575, 100);
+            this.flowLayoutPanel14.TabIndex = 3;
             // 
-            // textBox7
+            // textBox14
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(438, 16);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(161, 26);
-            this.textBox7.TabIndex = 32;
-            this.textBox7.Text = "Chicago Crime News";
+            this.textBox14.Location = new System.Drawing.Point(144, 3);
+            this.textBox14.Multiline = true;
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(420, 20);
+            this.textBox14.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.joycelyn_savage;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.Chicago_Police_Department_Badge_C2N_2_;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.crime;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.police;
+            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.AP19085681368163_0;
+            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
             // 
             // mainForm
             // 
-            this.ClientSize = new System.Drawing.Size(1119, 492);
+            this.ClientSize = new System.Drawing.Size(1119, 530);
             this.Controls.Add(this.metroTabControl1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -1634,10 +1866,30 @@ namespace ChicagoCrimeAlertApplication
             ((System.ComponentModel.ISupportInitialize)(this.lineGraph)).EndInit();
             this.metroTabPage3.ResumeLayout(false);
             this.metroTabPage3.PerformLayout();
+            this.flowLayoutPanel8.ResumeLayout(false);
+            this.flowLayoutPanel8.PerformLayout();
+            this.flowLayoutPanel13.ResumeLayout(false);
+            this.flowLayoutPanel13.PerformLayout();
+            this.flowLayoutPanel9.ResumeLayout(false);
+            this.flowLayoutPanel9.PerformLayout();
+            this.flowLayoutPanel10.ResumeLayout(false);
+            this.flowLayoutPanel10.PerformLayout();
+            this.flowLayoutPanel11.ResumeLayout(false);
+            this.flowLayoutPanel11.PerformLayout();
             this.metroTabPage4.ResumeLayout(false);
             this.metroTabPage4.PerformLayout();
             this.metroTabPage5.ResumeLayout(false);
             this.metroTabPage5.PerformLayout();
+            this.flowLayoutPanel12.ResumeLayout(false);
+            this.flowLayoutPanel12.PerformLayout();
+            this.flowLayoutPanel14.ResumeLayout(false);
+            this.flowLayoutPanel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1712,6 +1964,26 @@ namespace ChicagoCrimeAlertApplication
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel8;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel13;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel9;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel10;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel11;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel12;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel14;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.TextBox textBox14;
     }
 }
 

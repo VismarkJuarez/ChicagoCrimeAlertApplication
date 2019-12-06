@@ -299,5 +299,10 @@ namespace ChicagoCrimeAlertApplication
         {
 
         }
+
+        private void flowLayoutPanel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

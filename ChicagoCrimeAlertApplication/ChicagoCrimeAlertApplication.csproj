@@ -148,6 +148,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\AnnualCrimeFrequencies.datasource" />
@@ -178,6 +179,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="credentialsFile.txt" />
+    <None Include="Resources\AP19085681368163_0.jpg" />
+    <None Include="Resources\police.jpg" />
+    <None Include="Resources\Chicago Police Department Badge_C2N%282%29.jpg" />
+    <None Include="Resources\joycelyn savage.jpg" />
+    <None Include="Resources\crime.jpg" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
