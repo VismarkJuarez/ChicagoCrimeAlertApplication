@@ -31,15 +31,17 @@ namespace ChicagoCrimeAlertApplication
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
@@ -64,7 +66,6 @@ namespace ChicagoCrimeAlertApplication
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
             this.startingYearDropDown = new System.Windows.Forms.ComboBox();
-
             this.endingYearDropDown = new System.Windows.Forms.ComboBox();
             this.wardDropdown = new System.Windows.Forms.ComboBox();
             this.lineGraphCrime1 = new System.Windows.Forms.ComboBox();
@@ -77,9 +78,6 @@ namespace ChicagoCrimeAlertApplication
             this.lineGraphCrime8 = new System.Windows.Forms.ComboBox();
             this.lineGraphCrime9 = new System.Windows.Forms.ComboBox();
             this.lineGraphCrime10 = new System.Windows.Forms.ComboBox();
-            this.stoppingYearDropDown = new System.Windows.Forms.ComboBox();
-            this.wardDropdown = new System.Windows.Forms.ComboBox();
-            this.lineGraphCrime1 = new System.Windows.Forms.ComboBox();
             this.lineGraphButton = new System.Windows.Forms.Button();
             this.lineGraph = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
@@ -96,11 +94,13 @@ namespace ChicagoCrimeAlertApplication
             this.firstNameTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.metroTabPage5 = new MetroFramework.Controls.MetroTabPage();
-            this.label5 = new System.Windows.Forms.Label();
-
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.stoppingYearDropDown = new System.Windows.Forms.ComboBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
@@ -112,6 +112,7 @@ namespace ChicagoCrimeAlertApplication
             this.flowLayoutPanel6.SuspendLayout();
             this.flowLayoutPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lineGraph)).BeginInit();
+            this.metroTabPage3.SuspendLayout();
             this.metroTabPage4.SuspendLayout();
             this.metroTabPage5.SuspendLayout();
             this.SuspendLayout();
@@ -134,7 +135,7 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroTabControl1.Location = new System.Drawing.Point(0, 0);
             this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 0;
+            this.metroTabControl1.SelectedIndex = 2;
             this.metroTabControl1.Size = new System.Drawing.Size(1119, 492);
             this.metroTabControl1.TabIndex = 6;
             this.metroTabControl1.UseSelectable = true;
@@ -147,15 +148,38 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage1.HorizontalScrollbarBarColor = true;
             this.metroTabPage1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage1.HorizontalScrollbarSize = 10;
-            this.metroTabPage1.Location = new System.Drawing.Point(4, 35);
+            this.metroTabPage1.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(1111, 453);
+            this.metroTabPage1.Size = new System.Drawing.Size(1111, 450);
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "Welcome Page";
             this.metroTabPage1.VerticalScrollbarBarColor = true;
             this.metroTabPage1.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage1.VerticalScrollbarSize = 10;
             this.metroTabPage1.Click += new System.EventHandler(this.metroTabPage1_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.Window;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(62, 115);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(110, 29);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Explore:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.Window;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label2.Location = new System.Drawing.Point(67, 158);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(978, 177);
+            this.label2.TabIndex = 3;
+            this.label2.Text = resources.GetString("label2.Text");
             // 
             // label1
             // 
@@ -597,6 +621,9 @@ namespace ChicagoCrimeAlertApplication
             this.crimeComboBox8.Size = new System.Drawing.Size(149, 21);
             this.crimeComboBox8.TabIndex = 13;
             this.crimeComboBox8.Text = "Crime 8";
+            // 
+            // crimeComboBox9
+            // 
             this.crimeComboBox9.FormattingEnabled = true;
             this.crimeComboBox9.Items.AddRange(new object[] {
             "DECEPTIVE PRACTICE",
@@ -687,21 +714,21 @@ namespace ChicagoCrimeAlertApplication
             // 
             // crimeFrequencyByYearChart
             // 
-            chartArea1.Name = "ChartArea1";
-            this.crimeFrequencyByYearChart.ChartAreas.Add(chartArea1);
+            chartArea9.Name = "ChartArea1";
+            this.crimeFrequencyByYearChart.ChartAreas.Add(chartArea9);
             this.crimeFrequencyByYearChart.ImeMode = System.Windows.Forms.ImeMode.On;
-            legend1.Name = "Legend1";
-            this.crimeFrequencyByYearChart.Legends.Add(legend1);
+            legend9.Name = "Legend1";
+            this.crimeFrequencyByYearChart.Legends.Add(legend9);
             this.crimeFrequencyByYearChart.Location = new System.Drawing.Point(419, 3);
             this.crimeFrequencyByYearChart.Name = "crimeFrequencyByYearChart";
-            series1.ChartArea = "ChartArea1";
-            series1.Font = new System.Drawing.Font("Microsoft Uighur", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series1.LabelAngle = 60;
-            series1.Legend = "Legend1";
-            series1.Name = "Crime Frequency";
-            series1.XValueMember = "Crime";
-            series1.YValueMembers = "Crime Frequency";
-            this.crimeFrequencyByYearChart.Series.Add(series1);
+            series9.ChartArea = "ChartArea1";
+            series9.Font = new System.Drawing.Font("Microsoft Uighur", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series9.LabelAngle = 60;
+            series9.Legend = "Legend1";
+            series9.Name = "Crime Frequency";
+            series9.XValueMember = "Crime";
+            series9.YValueMembers = "Crime Frequency";
+            this.crimeFrequencyByYearChart.Series.Add(series9);
             this.crimeFrequencyByYearChart.Size = new System.Drawing.Size(645, 353);
             this.crimeFrequencyByYearChart.TabIndex = 5;
             this.crimeFrequencyByYearChart.Text = "chart1";
@@ -784,6 +811,25 @@ namespace ChicagoCrimeAlertApplication
             "2016",
             "2017",
             "2018",
+            "2019",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
             "2019"});
             this.startingYearDropDown.Location = new System.Drawing.Point(3, 3);
             this.startingYearDropDown.Name = "startingYearDropDown";
@@ -821,66 +867,6 @@ namespace ChicagoCrimeAlertApplication
             this.endingYearDropDown.Size = new System.Drawing.Size(133, 21);
             this.endingYearDropDown.TabIndex = 18;
             this.endingYearDropDown.Text = "Select Stopping Year";
-            // 
-            // startingYearDropDown
-            // 
-            this.startingYearDropDown.FormattingEnabled = true;
-            this.startingYearDropDown.Items.AddRange(new object[] {
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019"});
-            this.startingYearDropDown.Location = new System.Drawing.Point(3, 3);
-            this.startingYearDropDown.Name = "startingYearDropDown";
-            this.startingYearDropDown.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.startingYearDropDown.Size = new System.Drawing.Size(133, 21);
-            this.startingYearDropDown.TabIndex = 17;
-            this.startingYearDropDown.Text = "Select Starting Year";
-            // 
-            // stoppingYearDropDown
-            // 
-            this.stoppingYearDropDown.FormattingEnabled = true;
-            this.stoppingYearDropDown.Items.AddRange(new object[] {
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019"});
-            this.stoppingYearDropDown.Location = new System.Drawing.Point(3, 30);
-            this.stoppingYearDropDown.Name = "stoppingYearDropDown";
-            this.stoppingYearDropDown.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.stoppingYearDropDown.Size = new System.Drawing.Size(133, 21);
-            this.stoppingYearDropDown.TabIndex = 18;
-            this.stoppingYearDropDown.Text = "Select Stopping Year";
             // 
             // wardDropdown
             // 
@@ -1357,22 +1343,22 @@ namespace ChicagoCrimeAlertApplication
             // 
             // lineGraph
             // 
-            chartArea2.Name = "ChartArea1";
-            this.lineGraph.ChartAreas.Add(chartArea2);
+            chartArea10.Name = "ChartArea1";
+            this.lineGraph.ChartAreas.Add(chartArea10);
             this.lineGraph.ImeMode = System.Windows.Forms.ImeMode.On;
-            legend2.Name = "Legend1";
-            this.lineGraph.Legends.Add(legend2);
+            legend10.Name = "Legend1";
+            this.lineGraph.Legends.Add(legend10);
             this.lineGraph.Location = new System.Drawing.Point(419, 3);
             this.lineGraph.Name = "lineGraph";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Font = new System.Drawing.Font("Microsoft Uighur", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series2.LabelAngle = 60;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            series2.XValueMember = "Crime";
-            series2.YValueMembers = "Crime Frequency";
-            this.lineGraph.Series.Add(series2);
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series10.Font = new System.Drawing.Font("Microsoft Uighur", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series10.LabelAngle = 60;
+            series10.Legend = "Legend1";
+            series10.Name = "Series1";
+            series10.XValueMember = "Crime";
+            series10.YValueMembers = "Crime Frequency";
+            this.lineGraph.Series.Add(series10);
             this.lineGraph.Size = new System.Drawing.Size(645, 353);
             this.lineGraph.TabIndex = 5;
             this.lineGraph.Text = "chart1";
@@ -1395,12 +1381,13 @@ namespace ChicagoCrimeAlertApplication
             // 
             // metroTabPage3
             // 
+            this.metroTabPage3.Controls.Add(this.textBox7);
             this.metroTabPage3.HorizontalScrollbarBarColor = true;
             this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage3.HorizontalScrollbarSize = 10;
-            this.metroTabPage3.Location = new System.Drawing.Point(4, 35);
+            this.metroTabPage3.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage3.Name = "metroTabPage3";
-            this.metroTabPage3.Size = new System.Drawing.Size(1111, 453);
+            this.metroTabPage3.Size = new System.Drawing.Size(1111, 450);
             this.metroTabPage3.TabIndex = 2;
             this.metroTabPage3.Text = "Crime Related News";
             this.metroTabPage3.VerticalScrollbarBarColor = true;
@@ -1409,6 +1396,8 @@ namespace ChicagoCrimeAlertApplication
             // 
             // metroTabPage4
             // 
+            this.metroTabPage4.Controls.Add(this.textBox5);
+            this.metroTabPage4.Controls.Add(this.textBox4);
             this.metroTabPage4.Controls.Add(this.submitButton);
             this.metroTabPage4.Controls.Add(this.label8);
             this.metroTabPage4.Controls.Add(this.label7);
@@ -1421,7 +1410,6 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage4.HorizontalScrollbarBarColor = true;
             this.metroTabPage4.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage4.HorizontalScrollbarSize = 10;
-
             this.metroTabPage4.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage4.Name = "metroTabPage4";
             this.metroTabPage4.Size = new System.Drawing.Size(1111, 450);
@@ -1458,9 +1446,9 @@ namespace ChicagoCrimeAlertApplication
             this.label7.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label7.Location = new System.Drawing.Point(246, 172);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 13);
+            this.label7.Size = new System.Drawing.Size(39, 13);
             this.label7.TabIndex = 8;
-            this.label7.Text = "ward: ";
+            this.label7.Text = "Ward: ";
             // 
             // label6
             // 
@@ -1513,7 +1501,7 @@ namespace ChicagoCrimeAlertApplication
             // 
             // metroTabPage5
             // 
-
+            this.metroTabPage5.Controls.Add(this.textBox6);
             this.metroTabPage5.Controls.Add(this.label9);
             this.metroTabPage5.Controls.Add(this.label5);
             this.metroTabPage5.HorizontalScrollbarBarColor = true;
@@ -1528,42 +1516,6 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage5.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage5.VerticalScrollbarSize = 10;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-
-            this.label5.BackColor = System.Drawing.SystemColors.Window;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.label5.Location = new System.Drawing.Point(366, 127);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(314, 24);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Jack Broncato: Front End Developer";
-            this.label5.Click += new System.EventHandler(this.Label5_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.Window;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label2.Location = new System.Drawing.Point(67, 158);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(978, 177);
-            this.label2.TabIndex = 3;
-            this.label2.Text = resources.GetString("label2.Text");
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.Window;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(62, 115);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 29);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Explore:";
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -1574,6 +1526,87 @@ namespace ChicagoCrimeAlertApplication
             this.label9.Size = new System.Drawing.Size(418, 24);
             this.label9.TabIndex = 4;
             this.label9.Text = "Vismark Juarez: Back End Developer, Integration";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.Window;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label5.Location = new System.Drawing.Point(366, 127);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(314, 24);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Jack Broncato: Front End Developer";
+            this.label5.Click += new System.EventHandler(this.Label5_Click);
+            // 
+            // stoppingYearDropDown
+            // 
+            this.stoppingYearDropDown.FormattingEnabled = true;
+            this.stoppingYearDropDown.Items.AddRange(new object[] {
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019"});
+            this.stoppingYearDropDown.Location = new System.Drawing.Point(3, 30);
+            this.stoppingYearDropDown.Name = "stoppingYearDropDown";
+            this.stoppingYearDropDown.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.stoppingYearDropDown.Size = new System.Drawing.Size(133, 21);
+            this.stoppingYearDropDown.TabIndex = 18;
+            this.stoppingYearDropDown.Text = "Select Stopping Year";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(403, 16);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(210, 26);
+            this.textBox4.TabIndex = 31;
+            this.textBox4.Text = "Chicago Crime Alert Sign Up";
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(518, 92);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(283, 156);
+            this.textBox5.TabIndex = 32;
+            this.textBox5.Text = resources.GetString("textBox5.Text");
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(485, 16);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(80, 26);
+            this.textBox6.TabIndex = 32;
+            this.textBox6.Text = "About Us";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(438, 16);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(161, 26);
+            this.textBox7.TabIndex = 32;
+            this.textBox7.Text = "Chicago Crime News";
             // 
             // mainForm
             // 
@@ -1599,6 +1632,8 @@ namespace ChicagoCrimeAlertApplication
             this.flowLayoutPanel6.PerformLayout();
             this.flowLayoutPanel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.lineGraph)).EndInit();
+            this.metroTabPage3.ResumeLayout(false);
+            this.metroTabPage3.PerformLayout();
             this.metroTabPage4.ResumeLayout(false);
             this.metroTabPage4.PerformLayout();
             this.metroTabPage5.ResumeLayout(false);
@@ -1673,7 +1708,10 @@ namespace ChicagoCrimeAlertApplication
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label9;
-
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }
 
