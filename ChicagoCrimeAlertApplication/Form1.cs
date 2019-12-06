@@ -116,17 +116,11 @@ namespace ChicagoCrimeAlertApplication
 
         }
 
-
-        private void loadChart()
-        {
-
-        }
-
-
         private void loadBarChart()
         {
 
             //Setting up stylistic configurations fo the chart
+            this.crimeFrequencyByYearChart.Series.Add("Crime Frequency");
             this.crimeFrequencyByYearChart.Series["Crime Frequency"].IsValueShownAsLabel = true;
             this.crimeFrequencyByYearChart.Series["Crime Frequency"].Font = new System.Drawing.Font("Arial", 12);
             this.crimeFrequencyByYearChart.ChartAreas[0].AxisX.LabelStyle.Angle = -90;
@@ -261,10 +255,21 @@ namespace ChicagoCrimeAlertApplication
 
         private void executeQueryButton_Click(object sender, EventArgs e)
         {
+            //Clear any pre-existing bar chart data from previous queries.
+            clearBarChart();
+
             //Will fetch data from the Chicago Crime Portal API and display it on the bar chart.
             loadBarChart();
         }
 
+        private void clearLineChart() {
+            this.lineGraph.Series.Clear();
+        }
+
+        private void clearBarChart()
+        {
+           this.crimeFrequencyByYearChart.Series.Clear();
+        }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -288,6 +293,10 @@ namespace ChicagoCrimeAlertApplication
 
         private void lineGraphButton_Click(object sender, EventArgs e)
         {
+            //Clear any existing line chart data (if any)
+            clearLineChart();
+
+            //load and process user-input
             loadLineChart();
         }
 
