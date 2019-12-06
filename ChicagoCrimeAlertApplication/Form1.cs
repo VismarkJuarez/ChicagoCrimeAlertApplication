@@ -15,16 +15,26 @@ namespace ChicagoCrimeAlertApplication
             InitializeComponent();
         }
 
+        private List<Color> lineChartColors = new List<Color>() {
+            Color.Aqua,
+            Color.Black,
+            Color.Red,
+            Color.Green,
+            Color.Violet,
+            Color.Orange,
+            Color.Pink,
+            Color.Brown,
+            Color.CadetBlue,
+            Color.DarkKhaki,
+            Color.DarkTurquoise,
+            Color.Firebrick,
+            Color.LightSalmon,
+            Color.LightCoral,
+    };
+
 
         private void recordNewUser()
         {
-            /*
-           TODO:
-               - Input vlidation (phone number cannot be < || > 10 digits).
-               - Phone number input should only be numbers.
-               - The custom message and phone number cannot be null.
-            */
-
             //Store the phone numbere entered by the user
             String phoneNumber = phoneNumberTextBox.Text;
             string firstName = firstNameTextBox.Text;
@@ -232,20 +242,21 @@ namespace ChicagoCrimeAlertApplication
         }
 
         private void addNewSeriesToLineChart(String nameOfNewSeries) {
+            int numberOfLinesInChart = this.lineGraph.Series.Count;
+            Color color = generateRandomColor(numberOfLinesInChart);
             Console.WriteLine("Adding new Series to line chart: " + nameOfNewSeries);
             this.lineGraph.Series.Add(nameOfNewSeries);
-            this.lineGraph.Series[nameOfNewSeries].Color = generateRandomColor();
+            this.lineGraph.Series[nameOfNewSeries].Color = color;
             this.lineGraph.Series[nameOfNewSeries].IsVisibleInLegend = true;
             this.lineGraph.Series[nameOfNewSeries].ChartType = SeriesChartType.Spline;
             this.lineGraph.Series[nameOfNewSeries].IsValueShownAsLabel = true;
             this.lineGraph.Series[nameOfNewSeries].Font = new System.Drawing.Font("Arial", 9);
+
+            Console.WriteLine("returned rgb color: " + color);
         }
 
-        //TODO ranom color generator does not actually work.  Need to create our own random color-generator.
-        private Color generateRandomColor() {
-            Random rnd = null;
-            rnd = new Random();
-            return Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+        private Color generateRandomColor(int index) {
+            return lineChartColors[index];
         }
 
         private void executeQueryButton_Click(object sender, EventArgs e)
