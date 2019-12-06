@@ -85,13 +85,23 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
             this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
@@ -111,16 +121,6 @@ namespace ChicagoCrimeAlertApplication
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.stoppingYearDropDown = new System.Windows.Forms.ComboBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
@@ -135,19 +135,19 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage3.SuspendLayout();
             this.flowLayoutPanel8.SuspendLayout();
             this.flowLayoutPanel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowLayoutPanel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.flowLayoutPanel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.flowLayoutPanel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.flowLayoutPanel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.flowLayoutPanel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.metroTabPage4.SuspendLayout();
             this.metroTabPage5.SuspendLayout();
-            this.flowLayoutPanel12.SuspendLayout();
-            this.flowLayoutPanel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -168,7 +168,7 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroTabControl1.Location = new System.Drawing.Point(0, 0);
             this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 2;
+            this.metroTabControl1.SelectedIndex = 4;
             this.metroTabControl1.Size = new System.Drawing.Size(1119, 530);
             this.metroTabControl1.TabIndex = 6;
             this.metroTabControl1.UseSelectable = true;
@@ -181,9 +181,9 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage1.HorizontalScrollbarBarColor = true;
             this.metroTabPage1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage1.HorizontalScrollbarSize = 10;
-            this.metroTabPage1.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage1.Location = new System.Drawing.Point(4, 35);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(1111, 450);
+            this.metroTabPage1.Size = new System.Drawing.Size(1111, 491);
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "Welcome Page";
             this.metroTabPage1.VerticalScrollbarBarColor = true;
@@ -237,9 +237,9 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage2.HorizontalScrollbarBarColor = true;
             this.metroTabPage2.HorizontalScrollbarHighlightOnWheel = false;
             this.metroTabPage2.HorizontalScrollbarSize = 10;
-            this.metroTabPage2.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage2.Location = new System.Drawing.Point(4, 35);
             this.metroTabPage2.Name = "metroTabPage2";
-            this.metroTabPage2.Size = new System.Drawing.Size(1111, 450);
+            this.metroTabPage2.Size = new System.Drawing.Size(1111, 491);
             this.metroTabPage2.TabIndex = 1;
             this.metroTabPage2.Text = "Crime Statistics";
             this.metroTabPage2.VerticalScrollbarBarColor = true;
@@ -1451,6 +1451,16 @@ namespace ChicagoCrimeAlertApplication
             this.flowLayoutPanel13.Size = new System.Drawing.Size(575, 100);
             this.flowLayoutPanel13.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.joycelyn_savage;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(144, 3);
@@ -1468,6 +1478,16 @@ namespace ChicagoCrimeAlertApplication
             this.flowLayoutPanel9.Name = "flowLayoutPanel9";
             this.flowLayoutPanel9.Size = new System.Drawing.Size(575, 100);
             this.flowLayoutPanel9.TabIndex = 0;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.Chicago_Police_Department_Badge_C2N_2_;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // textBox10
             // 
@@ -1491,6 +1511,16 @@ namespace ChicagoCrimeAlertApplication
             this.flowLayoutPanel10.TabIndex = 1;
             this.flowLayoutPanel10.WrapContents = false;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.crime;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(144, 3);
@@ -1509,6 +1539,16 @@ namespace ChicagoCrimeAlertApplication
             this.flowLayoutPanel11.Size = new System.Drawing.Size(575, 100);
             this.flowLayoutPanel11.TabIndex = 2;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.police;
+            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            // 
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(144, 3);
@@ -1519,6 +1559,61 @@ namespace ChicagoCrimeAlertApplication
             this.textBox12.Text = "5 Chicago Teens Charged with Murder Under Controversial Illinois Law\r\n\r\nhttps://n" +
     "ews.wttw.com/2019/08/29/5-chicago-teens-charged-murder-under-controversial-illin" +
     "ois-law";
+            // 
+            // flowLayoutPanel12
+            // 
+            this.flowLayoutPanel12.Controls.Add(this.pictureBox5);
+            this.flowLayoutPanel12.Controls.Add(this.textBox13);
+            this.flowLayoutPanel12.Controls.Add(this.flowLayoutPanel14);
+            this.flowLayoutPanel12.Location = new System.Drawing.Point(3, 430);
+            this.flowLayoutPanel12.Name = "flowLayoutPanel12";
+            this.flowLayoutPanel12.Size = new System.Drawing.Size(575, 100);
+            this.flowLayoutPanel12.TabIndex = 1;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.AP19085681368163_0;
+            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(144, 3);
+            this.textBox13.Multiline = true;
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(420, 88);
+            this.textBox13.TabIndex = 2;
+            this.textBox13.Text = "Confused by Jussie Smollett Case? Here’s What You Need to Know.\r\n\r\nhttps://news.w" +
+    "ttw.com/2019/03/29/jussie-smollett-charges-dropped-case-questions\r\n";
+            // 
+            // flowLayoutPanel14
+            // 
+            this.flowLayoutPanel14.Controls.Add(this.pictureBox6);
+            this.flowLayoutPanel14.Controls.Add(this.textBox14);
+            this.flowLayoutPanel14.Location = new System.Drawing.Point(3, 106);
+            this.flowLayoutPanel14.Name = "flowLayoutPanel14";
+            this.flowLayoutPanel14.Size = new System.Drawing.Size(575, 100);
+            this.flowLayoutPanel14.TabIndex = 3;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(135, 97);
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(144, 3);
+            this.textBox14.Multiline = true;
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(420, 20);
+            this.textBox14.TabIndex = 2;
             // 
             // textBox8
             // 
@@ -1558,7 +1653,7 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage4.HorizontalScrollbarSize = 10;
             this.metroTabPage4.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage4.Name = "metroTabPage4";
-            this.metroTabPage4.Size = new System.Drawing.Size(1111, 450);
+            this.metroTabPage4.Size = new System.Drawing.Size(1111, 488);
             this.metroTabPage4.TabIndex = 3;
             this.metroTabPage4.Text = "Alert System";
             this.metroTabPage4.VerticalScrollbarBarColor = true;
@@ -1676,7 +1771,7 @@ namespace ChicagoCrimeAlertApplication
             this.metroTabPage5.HorizontalScrollbarSize = 10;
             this.metroTabPage5.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage5.Name = "metroTabPage5";
-            this.metroTabPage5.Size = new System.Drawing.Size(1111, 450);
+            this.metroTabPage5.Size = new System.Drawing.Size(1111, 488);
             this.metroTabPage5.TabIndex = 4;
             this.metroTabPage5.Text = "About Us";
             this.metroTabPage5.VerticalScrollbarBarColor = true;
@@ -1745,101 +1840,6 @@ namespace ChicagoCrimeAlertApplication
             this.stoppingYearDropDown.TabIndex = 18;
             this.stoppingYearDropDown.Text = "Select Stopping Year";
             // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(144, 3);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(420, 88);
-            this.textBox13.TabIndex = 2;
-            this.textBox13.Text = "Confused by Jussie Smollett Case? Here’s What You Need to Know.\r\n\r\nhttps://news.w" +
-    "ttw.com/2019/03/29/jussie-smollett-charges-dropped-case-questions\r\n";
-            // 
-            // flowLayoutPanel12
-            // 
-            this.flowLayoutPanel12.Controls.Add(this.pictureBox5);
-            this.flowLayoutPanel12.Controls.Add(this.textBox13);
-            this.flowLayoutPanel12.Controls.Add(this.flowLayoutPanel14);
-            this.flowLayoutPanel12.Location = new System.Drawing.Point(3, 430);
-            this.flowLayoutPanel12.Name = "flowLayoutPanel12";
-            this.flowLayoutPanel12.Size = new System.Drawing.Size(575, 100);
-            this.flowLayoutPanel12.TabIndex = 1;
-            // 
-            // flowLayoutPanel14
-            // 
-            this.flowLayoutPanel14.Controls.Add(this.pictureBox6);
-            this.flowLayoutPanel14.Controls.Add(this.textBox14);
-            this.flowLayoutPanel14.Location = new System.Drawing.Point(3, 106);
-            this.flowLayoutPanel14.Name = "flowLayoutPanel14";
-            this.flowLayoutPanel14.Size = new System.Drawing.Size(575, 100);
-            this.flowLayoutPanel14.TabIndex = 3;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(144, 3);
-            this.textBox14.Multiline = true;
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(420, 20);
-            this.textBox14.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.joycelyn_savage;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(135, 97);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.Chicago_Police_Department_Badge_C2N_2_;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(135, 97);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.crime;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(135, 97);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.police;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(135, 97);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::ChicagoCrimeAlertApplication.Properties.Resources.AP19085681368163_0;
-            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(135, 97);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(135, 97);
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
-            // 
             // mainForm
             // 
             this.ClientSize = new System.Drawing.Size(1119, 530);
@@ -1870,26 +1870,26 @@ namespace ChicagoCrimeAlertApplication
             this.flowLayoutPanel8.PerformLayout();
             this.flowLayoutPanel13.ResumeLayout(false);
             this.flowLayoutPanel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.flowLayoutPanel9.ResumeLayout(false);
             this.flowLayoutPanel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.flowLayoutPanel10.ResumeLayout(false);
             this.flowLayoutPanel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.flowLayoutPanel11.ResumeLayout(false);
             this.flowLayoutPanel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.flowLayoutPanel12.ResumeLayout(false);
+            this.flowLayoutPanel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.flowLayoutPanel14.ResumeLayout(false);
+            this.flowLayoutPanel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.metroTabPage4.ResumeLayout(false);
             this.metroTabPage4.PerformLayout();
             this.metroTabPage5.ResumeLayout(false);
             this.metroTabPage5.PerformLayout();
-            this.flowLayoutPanel12.ResumeLayout(false);
-            this.flowLayoutPanel12.PerformLayout();
-            this.flowLayoutPanel14.ResumeLayout(false);
-            this.flowLayoutPanel14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
